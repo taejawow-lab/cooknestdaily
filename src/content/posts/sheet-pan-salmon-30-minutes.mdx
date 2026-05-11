@@ -59,7 +59,7 @@ sources:
 visualsCount: 8
 hasVideo: false
 wordCount: 2950
-affiliate: false
+affiliate: true
 faq:
   - question: "What temperature should I cook salmon on a sheet pan?"
     answer: "Cook's Illustrated and Serious Eats both recommend 425°F (218°C). At this temperature a 6oz fillet reaches the USDA-safe internal temperature of 145°F in about 12 minutes. Bon Appétit goes higher at 450°F for a crispier exterior but the cook time drops to 9-10 minutes — easy to overshoot."
@@ -79,6 +79,9 @@ internalLinks:
   - "/about"
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 It's 6:47 PM on a Tuesday. The kids are restless, the salmon has been thawing since this morning, and you have exactly one rimmed baking sheet between you and dinner. This is the case for the sheet pan — not a culinary statement, just a tool that asks for less and delivers more.
 
@@ -191,3 +194,57 @@ These are the three most replicated sheet pan salmon recipes from the four sourc
 ## The bottom line
 
 For a weeknight cook with 30 minutes and one pan, the data converges around a simple recipe: 425°F oven, dense vegetables in first, salmon and quick vegetables added 8 minutes later, pulled at 140°F internal and rested 2 minutes. The four-source consensus exists for a reason — it works.
+
+## Sheet pans and accessories worth the upgrade
+
+A flimsy sheet pan warps under broiler heat and conducts unevenly, which is why pro kitchens stick with two specific brands. Combined with a silicone mat or parchment, these handle 95% of home sheet-pan dinners:
+
+<ProductBox
+  name="Nordic Ware Natural Aluminum Half Sheet (13x18-inch)"
+  priceHint="$22-28 — Wirecutter top pick, decade-stable bestseller"
+  pros={[
+    "Heavy-gauge aluminum stays flat under broiler heat",
+    "Encapsulated steel rim prevents warping over years of use",
+    "Made in USA, dishwasher-safe with care, fits standard ovens"
+  ]}
+  cons={[
+    "Bare aluminum can discolor (cosmetic only, no performance loss)",
+    "Single-sheet packs cost a bit more per pan than store-brand"
+  ]}
+  href="https://www.amazon.com/dp/B0049C2S32"
+  region="us"
+/>
+
+<ProductBox
+  name="USA Pan Half Sheet Pan (Americoat non-stick)"
+  priceHint="$30-40 — non-stick alternative"
+  pros={[
+    "Americoat silicone coating — no parchment needed",
+    "Corrugated surface prevents warping and improves airflow",
+    "Easier cleanup than bare aluminum for sticky glazes"
+  ]}
+  cons={[
+    "Coating limits broiler temp (manufacturer caps around 450 deg F)",
+    "More expensive than Nordic Ware for similar performance"
+  ]}
+  href="https://www.amazon.com/s?k=USA+Pan+half+sheet+pan"
+  region="us"
+/>
+
+<ProductBox
+  name="Silpat Premium Non-Stick Silicone Baking Mat (half sheet)"
+  priceHint="$25 — replaces parchment for the long run"
+  pros={[
+    "Reusable thousands of times — pays back in 2-3 months vs parchment",
+    "Heat safe to 480 deg F, salmon skin lifts cleanly every time",
+    "Half-sheet size fits Nordic Ware and USA Pan exactly"
+  ]}
+  cons={[
+    "Cannot use under direct broiler (use parchment for top-broil finish)",
+    "Counterfeit Silpats on Amazon — verify Demarle SAS branding"
+  ]}
+  href="https://www.amazon.com/s?k=Silpat+silicone+baking+mat+half+sheet"
+  region="us"
+/>
+
+Get one Nordic Ware sheet + one Silpat as the base kit. The USA Pan with non-stick coating is the upgrade for cooks who hate scrubbing — but you give up broiler use, which is a real trade-off for crispy-skin salmon.
