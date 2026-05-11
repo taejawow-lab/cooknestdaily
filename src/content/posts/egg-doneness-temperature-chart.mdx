@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2700
-affiliate: false
+affiliate: true
 faq:
   - question: "What's the lowest temperature where an egg yolk fully sets?"
     answer: "Yolk fully sets at 70°C (158°F). Below 68°C, yolk remains liquid even after extended cooking time. Between 65-68°C, yolk thickens to a custard texture (the classic 65°C onsen egg from Japanese cuisine). Above 70°C, yolk becomes increasingly firm and chalky. The 65-70°C range is where almost all interesting yolk textures live."
@@ -79,6 +79,9 @@ faq:
     answer: "Yes — at the cost of some precision. A Cambro container or insulated cooler filled with water at the target temperature, lid on, holds within ±2°C for 60-90 minutes. Add a small splash of boiling water every 15-20 minutes if temperature drops. For 65°C onsen eggs (target), starting at 67°C and letting the temperature drift down works fine. ChefSteps published a 'lazy sous vide' method using a 5-liter insulated water bath without circulator."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 Egg whites set at 62°C. Yolks set at 68°C. That 6-degree window is where every cooked egg variation lives — soft-boiled, sous vide poached, onsen, the runny-center hard-boiled, the custard-yolk Japanese ramen egg. Modernist Cuisine measured the protein denaturation curves. ChefSteps published the time-temperature charts. Serious Eats ran the home-kitchen tests. The data converges on a single map of egg textures by temperature.
 
@@ -201,3 +204,57 @@ Two pieces of equipment unlock most of the egg map:
 With these, the boiling-water method gets reliable results across the whole 60-100°C range. Without them, you're guessing — and egg cooking is a 30-second game where guessing produces consistently mediocre results.
 
 Pick the temperature for the texture you want, hit it precisely, and the egg cooks itself.
+
+## Recommended tools for hitting target egg temperatures
+
+If you cook eggs by feel today, switching to thermometer-verified temperatures eliminates almost all overcooking. Three thermometers consistently rank as the most reliable picks for sub-second readings and accurate calibration:
+
+<ProductBox
+  name="ThermoWorks Thermapen ONE (instant-read)"
+  priceHint="$109 list — Amazon Wirecutter top pick"
+  pros={[
+    "1-second reading, certified ±0.5 to ±0.9 deg F accuracy",
+    "Auto-rotating display, splash-proof IP67 rated",
+    "Industry standard used by professional kitchens"
+  ]}
+  cons={[
+    "Premium price compared to alternatives",
+    "Single-probe (no continuous oven monitoring)"
+  ]}
+  href="https://www.amazon.com/s?k=ThermoWorks+Thermapen+ONE"
+  region="us"
+/>
+
+<ProductBox
+  name="Lavatools Javelin PRO Duo"
+  priceHint="$59 list — strong budget pick"
+  pros={[
+    "2-3 second reading, ±0.9 deg F accuracy spec",
+    "Magnetic back for fridge storage, backlit display",
+    "Around half the price of Thermapen with comparable speed"
+  ]}
+  cons={[
+    "Slightly slower than Thermapen ONE",
+    "Build quality less robust than premium brands"
+  ]}
+  href="https://www.amazon.com/s?k=Lavatools+Javelin+PRO+Duo"
+  region="us"
+/>
+
+<ProductBox
+  name="ThermoPro TP19H (waterproof, rotating display)"
+  priceHint="$29 list — entry-level winner"
+  pros={[
+    "IP65 waterproof, rotating display, ±0.9 deg F accuracy",
+    "Sub-$30 price point with bestseller reliability",
+    "4-second reading still fast enough for eggs and meat"
+  ]}
+  cons={[
+    "Slower readout than Thermapen / Lavatools",
+    "Less precision at extreme high temps (above 400 deg F)"
+  ]}
+  href="https://www.amazon.com/s?k=ThermoPro+TP19H"
+  region="us"
+/>
+
+For egg work specifically, any of these will get you within 1 deg F of target — the Thermapen ONE wins on speed, the TP19H wins on price, and the Javelin PRO Duo offers the best balance for home cooks who care about both.
