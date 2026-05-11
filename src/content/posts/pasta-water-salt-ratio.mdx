@@ -63,7 +63,7 @@ internalLinks:
 visualsCount: 7
 hasVideo: false
 wordCount: 2640
-affiliate: false
+affiliate: true
 faq:
   - question: "What does 'salty as the sea' actually mean?"
     answer: "Seawater is roughly 3.5% salt — about 35 grams per liter. No reputable cooking source recommends this for pasta water. Modernist Cuisine recommends 1.5% (15 g/L). Cook's Illustrated recommends 1% (10 g/L). The Italian Accademia della Cucina specifies 7-10 g/L (0.7-1%). 'Salty as the sea' is folklore that produces severely over-salted pasta."
@@ -79,6 +79,9 @@ faq:
     answer: "It does — that's exactly why salted pasta water is the standard finishing liquid for sauces. The 1% salt content matches the seasoning level you want in the finished sauce, and the dissolved starch from the pasta acts as an emulsifier (especially for olive oil-based sauces and butter sauces). Save 1/2 cup of pasta water before draining; add 2-3 tablespoons to your sauce in the pan with the just-drained pasta to bind the sauce."
 draft: false
 ---
+
+import ProductBox from '../../components/ProductBox.astro';
+import Aff from '../../components/Aff.astro';
 
 The "salty as the sea" rule sounds authoritative. It's also wrong by a factor of three. Seawater is 3.5% salt. The salt content recommended by Modernist Cuisine is 1.5%, Cook's Illustrated calls for 1.0%, and the Italian Accademia della Cucina — which has been arbitrating Italian cuisine since 1953 — specifies 0.7-1.0%. Those three sources disagree by a factor of about 2x, and all of them are calibrated lower than the "sea" cliché.
 
@@ -191,3 +194,57 @@ This is the single most underused technique in home pasta cooking. If you're sal
 Salt your pasta water at 1% by weight (~38 g per 4 quarts, or 2 tablespoons Diamond Crystal kosher). Skip the "salty as the sea" rule — it's three times too much. Save 1/2 cup before draining. Use it to finish the sauce. That's most of the difference between home pasta and restaurant pasta.
 
 The exact ratio between 0.7% and 1.5% is a matter of taste and which sauce tradition you're cooking in. The number is not 3.5%. Whatever you do, don't salt by ocean instinct.
+
+## Tools for getting pasta water salinity right
+
+If you're tightening up your salt-to-water ratio, two pieces of kit make the difference between guessing and dialing in 1% salinity consistently: a large stockpot that actually holds the volume your recipe assumes, and a salt with predictable density.
+
+<ProductBox
+  name="Cuisinart Chef's Classic 12-Quart Stockpot (stainless)"
+  priceHint="$60-80 — proper pasta water volume"
+  pros={[
+    "12-qt capacity matches Italian-style 1L water per 100g pasta ratios",
+    "Stainless steel with aluminum-encapsulated base for even heat",
+    "Wide diameter prevents pasta from clumping at the boil"
+  ]}
+  cons={[
+    "Heavy when full (~25 lbs of water at full capacity)",
+    "Stainless requires more attention to prevent sticking vs non-stick"
+  ]}
+  href="https://www.amazon.com/s?k=Cuisinart+Chef+Classic+12+quart+stockpot"
+  region="us"
+/>
+
+<ProductBox
+  name="Diamond Crystal Kosher Salt (3 lb box)"
+  priceHint="$8-12 — pro kitchen standard"
+  pros={[
+    "Lighter density than Morton — easier to season without over-salting",
+    "Industry standard in restaurant kitchens for predictable salinity",
+    "Recipes that specify Diamond Crystal salt assume this density"
+  ]}
+  cons={[
+    "Not interchangeable 1:1 with Morton (use ~half if substituting)",
+    "Box can absorb humidity if not transferred to airtight container"
+  ]}
+  href="https://www.amazon.com/dp/B0019LWX2W"
+  region="us"
+/>
+
+<ProductBox
+  name="OXO Good Grips 11-lb Digital Kitchen Scale"
+  priceHint="$50-60 — for verified salinity"
+  pros={[
+    "Pull-out display works under wide pots (key for stockpot weighing)",
+    "0.1g resolution under 5 lb mode — precise enough for salt+water",
+    "Tare and unit toggle make recipe scaling trivial"
+  ]}
+  cons={[
+    "Pricier than basic digital scales",
+    "AAA batteries (no rechargeable option from OXO)"
+  ]}
+  href="https://www.amazon.com/s?k=OXO+Good+Grips+11+lb+digital+kitchen+scale"
+  region="us"
+/>
+
+The 12-qt pot + Diamond Crystal combo is the minimum for hitting 1% salinity reliably. Add the scale only if you want to verify by mass instead of measuring spoons — useful when scaling recipes from 100g to 500g of dry pasta.
