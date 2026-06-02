@@ -1,0 +1,142 @@
+{
+  "generated_at": "2026-06-02T16:13:47Z",
+  "finalized_at": "2026-06-02T16:17:40Z",
+  "host": "gti13",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "site": "cooknestdaily",
+  "slug": "picnic-cooler-packing-two-hour-food-safety-plan",
+  "title": "Picnic Cooler Packing and Two-Hour Food Safety Plan",
+  "post": "src/content/posts/picnic-cooler-packing-two-hour-food-safety-plan.mdx",
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-picnic-cooler-20260603-hero.png",
+      "filename": "cnd-picnic-cooler-20260603-hero.png",
+      "seed": 202606030007,
+      "prompt": "realistic picnic table with closed cooler, sealed containers, ice packs, shaded park setting, no labels, no text, no logos",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code",
+      "prompt_id": "19fa9af8-6ac2-4b0a-9aa6-a091b4cfd1a1",
+      "raw_output": {
+        "filename": "hermes_batcha_20260603_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1663209
+    },
+    {
+      "file": "public/images/illustrations/cnd-picnic-cooler-20260603-01.png",
+      "filename": "cnd-picnic-cooler-20260603-01.png",
+      "seed": 202606030008,
+      "prompt": "hands packing sealed containers into cooler with ice packs, no labels no readable text",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code",
+      "prompt_id": "43858f59-7de0-4a35-b2c8-99de09e535b5",
+      "raw_output": {
+        "filename": "hermes_batcha_20260603_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1295418
+    },
+    {
+      "file": "public/images/illustrations/cnd-picnic-cooler-20260603-02.png",
+      "filename": "cnd-picnic-cooler-20260603-02.png",
+      "seed": 202606030009,
+      "prompt": "separate small cooler area for drinks and food containers, no packaging text",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code",
+      "prompt_id": "b2543455-5674-4d91-944a-1e4a48760046",
+      "raw_output": {
+        "filename": "hermes_batcha_20260603_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1582922
+    },
+    {
+      "file": "public/images/illustrations/cnd-picnic-cooler-20260603-03.png",
+      "filename": "cnd-picnic-cooler-20260603-03.png",
+      "seed": 202606030010,
+      "prompt": "picnic table with serving tray under shade and timer-like blank object no numbers",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code",
+      "prompt_id": "12dafb5f-a163-4e46-87f0-1f3408616d59",
+      "raw_output": {
+        "filename": "hermes_batcha_20260603_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1541201
+    },
+    {
+      "file": "public/images/illustrations/cnd-picnic-cooler-20260603-04.png",
+      "filename": "cnd-picnic-cooler-20260603-04.png",
+      "seed": 202606030011,
+      "prompt": "person returning leftovers to cooler promptly in sealed containers, no labels",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code",
+      "prompt_id": "3ec55af6-fbc7-4a4b-b6de-b8ecfcf9b0c9",
+      "raw_output": {
+        "filename": "hermes_batcha_20260603_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1748635
+    },
+    {
+      "file": "public/images/illustrations/cnd-picnic-cooler-20260603-05.png",
+      "filename": "cnd-picnic-cooler-20260603-05.png",
+      "seed": 202606030012,
+      "prompt": "kitchen prep counter with clean containers and thermometer turned away, no readable numbers",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code",
+      "prompt_id": "69aa35c3-bf80-4625-b566-7c694bc12b58",
+      "raw_output": {
+        "filename": "hermes_batcha_20260603_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1386246
+    }
+  ],
+  "visual_qa": "pass after contact-sheet inspection; drive-insight hero and greenlivingtrend image 01 regenerated before publication"
+}
