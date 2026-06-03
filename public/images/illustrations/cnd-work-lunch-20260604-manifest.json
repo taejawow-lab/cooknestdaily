@@ -1,0 +1,141 @@
+{
+  "generated_at": "2026-06-03T16:13:44Z",
+  "host": "gti13",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "site": "cooknestdaily",
+  "slug": "work-lunch-cold-pack-food-safety-checklist",
+  "title": "Work Lunch Cold-Pack Food Safety Checklist",
+  "post": "src/content/posts/work-lunch-cold-pack-food-safety-checklist.mdx",
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-work-lunch-20260604-hero.png",
+      "filename": "cnd-work-lunch-20260604-hero.png",
+      "seed": 202606040007,
+      "prompt": "realistic insulated lunch bag with sealed containers and ice pack on clean kitchen counter, no labels no text no logos",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "bd04639b-6810-44f9-be8c-ad7da8b4b91b",
+      "raw_output": {
+        "filename": "hermes_batcha_20260604_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1276609
+    },
+    {
+      "file": "public/images/illustrations/cnd-work-lunch-20260604-01.png",
+      "filename": "cnd-work-lunch-20260604-01.png",
+      "seed": 202606040008,
+      "prompt": "person packing chilled sealed lunch containers with ice pack, no labels no readable text",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "0ed30e4b-6f57-4d5f-aa10-3d0dcd07bc8e",
+      "raw_output": {
+        "filename": "hermes_batcha_20260604_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1589161
+    },
+    {
+      "file": "public/images/illustrations/cnd-work-lunch-20260604-02.png",
+      "filename": "cnd-work-lunch-20260604-02.png",
+      "seed": 202606040009,
+      "prompt": "office refrigerator interior with clean sealed lunch containers and blank shelves no labels",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "bdd216f4-a963-4fd8-bd2d-f1dcb7bff844",
+      "raw_output": {
+        "filename": "hermes_batcha_20260604_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1142787
+    },
+    {
+      "file": "public/images/illustrations/cnd-work-lunch-20260604-03.png",
+      "filename": "cnd-work-lunch-20260604-03.png",
+      "seed": 202606040010,
+      "prompt": "commuter bag with insulated lunch pouch kept out of sun, no logos no text",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "09650c5f-839f-443c-b561-8c8413e11f71",
+      "raw_output": {
+        "filename": "hermes_batcha_20260604_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1879253
+    },
+    {
+      "file": "public/images/illustrations/cnd-work-lunch-20260604-04.png",
+      "filename": "cnd-work-lunch-20260604-04.png",
+      "seed": 202606040011,
+      "prompt": "clean desk lunch setup with small container served promptly, no packaging text",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "7bf26a83-eeca-4e7d-9e5b-9547f8e7ba1a",
+      "raw_output": {
+        "filename": "hermes_batcha_20260604_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1599675
+    },
+    {
+      "file": "public/images/illustrations/cnd-work-lunch-20260604-05.png",
+      "filename": "cnd-work-lunch-20260604-05.png",
+      "seed": 202606040012,
+      "prompt": "kitchen evening prep with shallow leftover containers cooling safely, no labels",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "46a5c67d-86c5-451c-851c-0989d1addf52",
+      "raw_output": {
+        "filename": "hermes_batcha_20260604_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1515580
+    }
+  ],
+  "qa": "visual contact sheet reviewed; final retained images only"
+}
