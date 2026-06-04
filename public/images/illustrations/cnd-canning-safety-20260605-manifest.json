@@ -1,0 +1,136 @@
+{
+  "site": "cooknestdaily",
+  "date": "2026-06-05",
+  "host": "gti13",
+  "endpoint": "http://192.168.50.29:8188",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-canning-safety-20260605-hero.png",
+      "filename": "cnd-canning-safety-20260605-hero.png",
+      "seed": 202606050007,
+      "prompt": "realistic clean kitchen canning setup with jars vegetables and pressure canner no labels no text",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "c2d07eae-48e4-4daf-a91f-8a6f8f2ef472",
+      "raw_output": {
+        "filename": "hermes_batcha_20260605_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1321211
+    },
+    {
+      "file": "public/images/illustrations/cnd-canning-safety-20260605-01.png",
+      "filename": "cnd-canning-safety-20260605-01.png",
+      "seed": 202606050008,
+      "prompt": "clean jars on towel with vegetables separated and blank recipe binder no readable text",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "5ae23469-81bd-44c5-98f9-267cf1639a7c",
+      "raw_output": {
+        "filename": "hermes_batcha_20260605_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1371910
+    },
+    {
+      "file": "public/images/illustrations/cnd-canning-safety-20260605-02.png",
+      "filename": "cnd-canning-safety-20260605-02.png",
+      "seed": 202606050009,
+      "prompt": "pressure canner on stove with steam in safe kitchen no gauges readable no labels",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "e5837bdb-60d7-4094-921e-27c8b8c87adf",
+      "raw_output": {
+        "filename": "hermes_batcha_20260605_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1589427
+    },
+    {
+      "file": "public/images/illustrations/cnd-canning-safety-20260605-03.png",
+      "filename": "cnd-canning-safety-20260605-03.png",
+      "seed": 202606050010,
+      "prompt": "person checking cooled jar seal on counter no brand no text",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "50fc3cf6-06dc-4ce3-bc63-81aba5a77bbe",
+      "raw_output": {
+        "filename": "hermes_batcha_20260605_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1205342
+    },
+    {
+      "file": "public/images/illustrations/cnd-canning-safety-20260605-04.png",
+      "filename": "cnd-canning-safety-20260605-04.png",
+      "seed": 202606050011,
+      "prompt": "organized pantry shelf with plain sealed jars no labels no writing",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "53538fee-8509-4b1b-884f-3df9a4d071cb",
+      "raw_output": {
+        "filename": "hermes_batcha_20260605_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1879320
+    },
+    {
+      "file": "public/images/illustrations/cnd-canning-safety-20260605-05.png",
+      "filename": "cnd-canning-safety-20260605-05.png",
+      "seed": 202606059001,
+      "prompt": "unsafe home canning discard decision scene with a sealed food jar set aside on a clean counter, gloves nearby, no coins, no labels, no text, no logos",
+      "negative_prompt": "text, words, letters, numbers, watermark, logo, brand name, readable labels, screen text, user interface, distorted hands, deformed anatomy, unsafe scene, medical procedure, fake dashboard, fake warning sign, blurry, low resolution, generic stock art, placeholder, plastic skin, extra fingers, broken objects, exposed wiring, raw meat next to produce, scannable code, QR code",
+      "prompt_id": "677da743-6d2a-4a83-a17d-a6e0e2e7e21c",
+      "raw_output": {
+        "filename": "hermes_batcha_20260605_qa_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "steps": 22,
+      "cfg": 5.5,
+      "width": 1536,
+      "height": 864,
+      "bytes": 1238248,
+      "qa_regenerated": true
+    }
+  ]
+}
