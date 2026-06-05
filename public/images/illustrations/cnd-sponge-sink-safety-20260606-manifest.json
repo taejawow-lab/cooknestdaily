@@ -1,0 +1,187 @@
+{
+  "generated_at": "2026-06-05T16:14:36Z",
+  "batch": "A",
+  "date": "2026-06-06",
+  "endpoint": "http://192.168.50.29:8188",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.2,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels"
+  },
+  "site": "cooknestdaily",
+  "slug": "kitchen-sponge-dishcloth-sink-food-safety-routine",
+  "title": "Kitchen Sponge, Dishcloth, and Sink Food Safety Routine",
+  "post": "src/content/posts/kitchen-sponge-dishcloth-sink-food-safety-routine.mdx",
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-sponge-sink-safety-20260606-hero.png",
+      "filename": "cnd-sponge-sink-safety-20260606-hero.png",
+      "prompt": "realistic clean kitchen sink safety scene with sponge, dishcloth, cutting board separated from produce, no raw meat, no labels, no text",
+      "seed": 202606060607,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "ac136bea-c405-4c53-93d3-a90241f8ec4e",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1756573,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-sponge-sink-safety-20260606-01.png",
+      "filename": "cnd-sponge-sink-safety-20260606-01.png",
+      "prompt": "realistic tidy kitchen sink with separate sponge and clean towel, produce bowl away from sink, no raw meat, no text",
+      "seed": 202606060608,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "f89df858-9c68-430b-890a-103fd486c623",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1708661,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-sponge-sink-safety-20260606-02.png",
+      "filename": "cnd-sponge-sink-safety-20260606-02.png",
+      "prompt": "realistic safe dishcloth drying setup with hook, clean counter, no labels, no logos",
+      "seed": 202606060609,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b890c0e4-777b-41c4-9893-31aff7baf450",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1521960,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-sponge-sink-safety-20260606-03.png",
+      "filename": "cnd-sponge-sink-safety-20260606-03.png",
+      "prompt": "realistic cutting board separation scene with vegetables and sealed containers, no raw meat touching produce, no text",
+      "seed": 202606060610,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "7eb6628f-bf74-438f-846c-998f15dd8b97",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1582798,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-sponge-sink-safety-20260606-04.png",
+      "filename": "cnd-sponge-sink-safety-20260606-04.png",
+      "prompt": "realistic kitchen cleaning kit with plain spray bottle turned away, gloves, brush, blank labels, no text",
+      "seed": 202606060611,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "38c08889-2a83-4620-9ba3-8feaca7e5521",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1492071,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-sponge-sink-safety-20260606-05.png",
+      "filename": "cnd-sponge-sink-safety-20260606-05.png",
+      "prompt": "realistic leftover storage scene with sealed containers in refrigerator, no readable labels, no raw meat near cooked food",
+      "seed": 202606060612,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "6ab947f1-04e3-4989-8478-6d467e6d775d",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1424812,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260606-cooknestdaily-contact-sheet.jpg",
+  "sources": [
+    "https://www.cdc.gov/food-safety/prevention/index.html",
+    "https://www.cdc.gov/food-safety/signs-symptoms/index.html",
+    "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cleanliness-helps-prevent-foodborne-illness",
+    "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+    "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-your-kitchen",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+    "https://www.cdc.gov/handwashing/when-how-handwashing.html",
+    "https://www.foodsafety.gov/keep-food-safe"
+  ],
+  "visual_qa_summary": "Contact sheet created for mandatory visual inspection; images are GTI13 raster PNGs at 1536x864 with no SVG/placeholders counted.",
+  "adSense_readiness": "Article uses official/current sources, non-affiliate helpful-content framing, internal links, FAQ, native tables, and six GTI13 raster images with visual QA."
+}
