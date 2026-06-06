@@ -1,0 +1,173 @@
+{
+  "site": "cooknestdaily",
+  "date": "2026-06-07",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.2,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels"
+  },
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-poultry-marinade-20260607-hero.png",
+      "filename": "cnd-poultry-marinade-20260607-hero.png",
+      "prompt": "realistic sealed raw poultry container alone on lower refrigerator tray, no produce nearby, no cooked food, plain container, no labels, no text",
+      "seed": 202606071001,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "cab5871c-e7c7-4177-96c5-0f69252d5a7d",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260607_final_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1435459,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa": "regenerated after visual QA rejection"
+    },
+    {
+      "file": "public/images/illustrations/cnd-poultry-marinade-20260607-01.png",
+      "filename": "cnd-poultry-marinade-20260607-01.png",
+      "prompt": "realistic refrigerator shelf with sealed plain marinade container on tray, vegetables separated, no raw food touching produce, no text",
+      "seed": 202606060608,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "269ef954-118b-4029-8c35-a8b45a582505",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_cooknestdaily_01_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1613531,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-poultry-marinade-20260607-02.png",
+      "filename": "cnd-poultry-marinade-20260607-02.png",
+      "prompt": "realistic kitchen prep station with separate clean cutting boards and utensils, plain surfaces, no labels",
+      "seed": 202606060609,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "496e04d1-0464-43c4-a91f-9918d5778790",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_cooknestdaily_02_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1726949,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-poultry-marinade-20260607-03.png",
+      "filename": "cnd-poultry-marinade-20260607-03.png",
+      "prompt": "realistic handwashing and counter cleanup setup with blank soap bottle turned away, no readable text",
+      "seed": 202606060610,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a6b7f891-d608-4c61-9db6-fd0ce7feaa5c",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_cooknestdaily_03_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1205667,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-poultry-marinade-20260607-04.png",
+      "filename": "cnd-poultry-marinade-20260607-04.png",
+      "prompt": "realistic cooked poultry plated safely with clean utensils and covered leftovers, no raw meat nearby, no labels",
+      "seed": 202606060611,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "e5294b4c-b22b-4311-8423-55548df12a01",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260606_cooknestdaily_04_00002_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1774432,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-poultry-marinade-20260607-05.png",
+      "filename": "cnd-poultry-marinade-20260607-05.png",
+      "prompt": "realistic clean food safety prep checklist scene with blank cards, clean counter, closed plain container, no thermometer, no numbers, no text",
+      "seed": 202606071002,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "9100e6b2-385e-45d3-802d-6296277b98ce",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260607_final_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1342399,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa": "regenerated after visual QA rejection"
+    }
+  ],
+  "visual_qa": "contact-sheet-pass; cooknestdaily hero and 05 regenerated after first QA rejection"
+}
