@@ -1,0 +1,81 @@
+{
+  "generated_at": "2026-06-08T22:36:30Z",
+  "site": "cooknestdaily",
+  "slug": "cut-melon-berry-summer-fridge-food-safety-routine",
+  "title": "Cut Melon and Berry Summer Fridge Food Safety Routine",
+  "host": "GTI13 redacted",
+  "direct_comfyui": true,
+  "workflow": {
+    "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+    "width": 1536,
+    "height": 864,
+    "steps": 24,
+    "cfg": 5.2,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras"
+  },
+  "assets": [
+    {
+      "filename": "cnd-melon-berry-fridge-20260609-hero.png",
+      "file": "public/images/illustrations/cnd-melon-berry-fridge-20260609-hero.png",
+      "bytes": 1580727,
+      "published": true,
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "filename": "cnd-melon-berry-fridge-20260609-01.png",
+      "file": "public/images/illustrations/cnd-melon-berry-fridge-20260609-01.png",
+      "bytes": 1415510,
+      "published": true,
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "filename": "cnd-melon-berry-fridge-20260609-02.png",
+      "file": "public/images/illustrations/cnd-melon-berry-fridge-20260609-02.png",
+      "bytes": 1652879,
+      "published": true,
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "filename": "cnd-melon-berry-fridge-20260609-03.png",
+      "file": "public/images/illustrations/cnd-melon-berry-fridge-20260609-03.png",
+      "bytes": 1432757,
+      "published": true,
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "filename": "cnd-melon-berry-fridge-20260609-04.png",
+      "file": "public/images/illustrations/cnd-melon-berry-fridge-20260609-04.png",
+      "bytes": 1731375,
+      "published": true,
+      "dimensions": [
+        1536,
+        864
+      ]
+    },
+    {
+      "filename": "cnd-melon-berry-fridge-20260609-05.png",
+      "file": "public/images/illustrations/cnd-melon-berry-fridge-20260609-05.png",
+      "bytes": 1156288,
+      "published": true,
+      "dimensions": [
+        1536,
+        864
+      ]
+    }
+  ],
+  "visual_qa": "Final contact sheet inspected; retained images match MDX references and avoid raw-meat/produce cross-contamination and readable text.",
+  "contact_sheet": "reports/batch-a-retry-20260609-cooknestdaily-contact-sheet.jpg"
+}
