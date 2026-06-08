@@ -1,35 +1,36 @@
-/* cooknestdaily.org design tokens — auto-generated 2026-05-08T03:41:45.331Z */
+/* CookNest Daily — Culinary Authority design tokens (handoff 2026-06-08) */
 :root {
-  --color-background: 255 249 242;
-  --color-foreground: 45 31 21;
-  --color-primary: 198 107 61;
+  --color-background: 255 248 245;
+  --color-foreground: 30 27 24;
+  --color-primary: 27 61 47;
   --color-primary-foreground: 255 255 255;
-  --color-accent: 122 139 95;
+  --color-accent: 151 71 35;
   --color-accent-foreground: 255 255 255;
-  --color-muted: 250 244 237;
-  --color-muted-foreground: 85 71 61;
-  --color-card: 255 249 242;
-  --color-card-foreground: 45 31 21;
-  --color-border: 125 111 101;
-  --color-input: 120 106 96;
-  --color-ring: 198 107 61;
-  --font-heading: "Lora", Georgia, serif;
-  --font-body: "Source Sans Pro", system-ui, sans-serif;
-  --font-display: "Fraunces", "Cormorant Garamond", serif;
-  --font-mono: "JetBrains Mono", "Fira Code", monospace;
-  --radius: 10px;
+  --color-muted: 245 236 231;
+  --color-muted-foreground: 65 72 68;
+  --color-card: 255 255 255;
+  --color-card-foreground: 30 27 24;
+  --color-border: 193 200 194;
+  --color-input: 114 121 116;
+  --color-ring: 27 61 47;
+  --font-heading: "EB Garamond", Georgia, serif;
+  --font-body: "Work Sans", Inter, system-ui, sans-serif;
+  --font-display: "EB Garamond", Georgia, serif;
+  --font-mono: "JetBrains Mono", "Fira Code", ui-monospace, monospace;
+  --radius: 8px;
 }
 [data-theme='dark'] {
-  --color-background: 31 22 18;
-  --color-foreground: 242 232 221;
-  --color-primary: 160 82 45;
-  --color-primary-foreground: 255 255 255;
-  --color-accent: 122 139 95;
-  --color-accent-foreground: 255 255 255;
-  --color-muted: 39 30 26;
-  --color-muted-foreground: 212 202 191;
-  --color-card: 36 27 23;
-  --color-card-foreground: 242 232 221;
-  --color-border: 182 172 161;
-  --color-input: 177 167 156;
+  --color-background: 28 32 28;
+  --color-foreground: 248 239 234;
+  --color-primary: 170 207 187;
+  --color-primary-foreground: 0 33 21;
+  --color-accent: 255 181 152;
+  --color-accent-foreground: 55 14 0;
+  --color-muted: 52 48 44;
+  --color-muted-foreground: 230 226 220;
+  --color-card: 35 34 30;
+  --color-card-foreground: 248 239 234;
+  --color-border: 104 110 105;
+  --color-input: 145 150 146;
+  --color-ring: 170 207 187;
 }

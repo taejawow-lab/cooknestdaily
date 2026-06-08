@@ -3,110 +3,17 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
 import ArticleCard from '../components/ArticleCard.astro';
-
-const posts = (await getCollection('posts'))
-  .filter((post) => !post.data.draft)
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
-
-const featuredPosts = posts.slice(0, 3);
-const recentPosts = posts.slice(3, 12);
-
-const siteName = import.meta.env.PUBLIC_SITE_NAME || 'yookahplus';
+const posts = (await getCollection('posts')).filter((post)=>!post.data.draft).sort((a,b)=>b.data.pubDate.valueOf()-a.data.pubDate.valueOf());
+const featuredPosts = posts.slice(0,3); const recentPosts = posts.slice(3,12);
+const categories = Array.from(new Set(posts.map((p)=>p.data.category).filter(Boolean))).slice(0,8);
 const siteDescription = import.meta.env.PUBLIC_SITE_DESCRIPTION || '';
-const heroTitle = import.meta.env.PUBLIC_SITE_HERO_TITLE || siteName;
+const heroTitle = import.meta.env.PUBLIC_SITE_HERO_TITLE || '30-Minute Dinners. Real Data. No Photos of Hands.';
 const heroSubtitle = import.meta.env.PUBLIC_SITE_HERO_SUBTITLE || siteDescription;
 ---
-
 <BaseLayout title="Home" description={siteDescription}>
-  <Hero
-    title={heroTitle}
-    subtitle={heroSubtitle}
-  />
-
-  {featuredPosts.length > 0 && (
-    <section class="container mx-auto px-6 md:px-10 py-20 md:py-28">
-      <!-- editorial section header -->
-      <div class="grid grid-cols-12 gap-x-6 md:gap-x-8 mb-12 md:mb-16">
-        <div class="col-span-12 md:col-span-4">
-          <p class="text-[10px] uppercase tracking-[0.25em] font-mono text-accent mb-3">¶ Section 01</p>
-          <h2 class="text-5xl md:text-6xl lg:text-7xl font-bold leading-[0.95] tracking-[-0.02em]" style="font-family: var(--font-display);">
-            Featured
-          </h2>
-        </div>
-        <div class="col-span-12 md:col-span-7 md:col-start-6 md:pt-4">
-          <p class="text-base md:text-lg text-foreground/70 leading-relaxed max-w-xl">
-            Hand-picked stories grounded in primary sources and verified data — what we believe is worth your attention right now.
-          </p>
-          <a href="/posts" class="inline-block mt-4 text-sm uppercase tracking-[0.15em] font-mono border-b border-foreground pb-1 hover:text-primary hover:border-primary transition-colors">
-            View archive →
-          </a>
-        </div>
-      </div>
-
-      <!-- asymmetric magazine grid: 1 large + 2 small -->
-      <div class="grid grid-cols-12 gap-x-6 md:gap-x-8 gap-y-12 md:gap-y-16">
-        {featuredPosts[0] && (
-          <div class="col-span-12 md:col-span-7 md:row-span-2">
-            <ArticleCard
-              title={featuredPosts[0].data.title}
-              description={featuredPosts[0].data.description}
-              href={`/posts/${featuredPosts[0].slug}`}
-              image={featuredPosts[0].data.heroImage}
-              category={featuredPosts[0].data.category}
-              pubDate={featuredPosts[0].data.pubDate}
-              variant="feature"
-              index={0}
-            />
-          </div>
-        )}
-        {featuredPosts.slice(1).map((post, i) => (
-          <div class="col-span-12 md:col-span-5">
-            <ArticleCard
-              title={post.data.title}
-              description={post.data.description}
-              href={`/posts/${post.slug}`}
-              image={post.data.heroImage}
-              category={post.data.category}
-              pubDate={post.data.pubDate}
-              variant="standard"
-              index={i + 1}
-            />
-          </div>
-        ))}
-      </div>
-    </section>
-  )}
-
-  {recentPosts.length > 0 && (
-    <section id="latest" class="border-t border-border py-20 md:py-28">
-      <div class="container mx-auto px-6 md:px-10">
-        <div class="grid grid-cols-12 gap-x-6 md:gap-x-8 mb-12 md:mb-16 items-baseline">
-          <div class="col-span-12 md:col-span-5">
-            <p class="text-[10px] uppercase tracking-[0.25em] font-mono text-accent mb-3">¶ Section 02</p>
-            <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-[0.95] tracking-[-0.02em]" style="font-family: var(--font-display);">
-              Recent
-            </h2>
-          </div>
-          <div class="col-span-12 md:col-span-7 md:text-right text-[10px] uppercase tracking-[0.25em] font-mono text-muted-foreground">
-            ↓ {recentPosts.length} stories · Sorted by date
-          </div>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-14">
-          {recentPosts.map((post, i) => (
-            <ArticleCard
-              title={post.data.title}
-              description={post.data.description}
-              href={`/posts/${post.slug}`}
-              image={post.data.heroImage}
-              category={post.data.category}
-              pubDate={post.data.pubDate}
-              variant="standard"
-              index={i + 3}
-            />
-          ))}
-        </div>
-      </div>
-    </section>
-  )}
+  <Hero title={heroTitle} subtitle={heroSubtitle} />
+  <section class="culinary-container py-16 md:py-24"><div class="grid gap-6 md:grid-cols-[0.9fr_1.1fr] md:items-end"><div><p class="section-kicker">Trust Bar</p><h2 class="section-title mt-3">Scientifically verified, kitchen tested</h2></div><p class="text-lg leading-8 text-muted-foreground">CookNest Daily combines USDA-backed safety references, timed cooking tests, and warm editorial cooking guidance for fast weeknight kitchens.</p></div><div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4"><div class="culinary-card p-5"><span class="safety-badge">Verified</span><h3 class="mt-5 text-3xl font-semibold text-primary" style="font-family: var(--font-display);">Safety-first</h3><p class="mt-2 text-sm text-muted-foreground">Storage, thawing, and temperature caveats stay visible.</p></div><div class="culinary-card p-5"><span class="kitchen-tested">Tested</span><h3 class="mt-5 text-3xl font-semibold text-primary" style="font-family: var(--font-display);">Timed recipes</h3><p class="mt-2 text-sm text-muted-foreground">30-minute claims are framed as practical test conditions.</p></div><div class="culinary-card p-5"><span class="safety-badge">Tables</span><h3 class="mt-5 text-3xl font-semibold text-primary" style="font-family: var(--font-display);">Data charts</h3><p class="mt-2 text-sm text-muted-foreground">Safe/caution/danger table styles for critical facts.</p></div><div class="culinary-card p-5"><span class="kitchen-tested">Tools</span><h3 class="mt-5 text-3xl font-semibold text-primary" style="font-family: var(--font-display);">Scorecards</h3><p class="mt-2 text-sm text-muted-foreground">Durability, heat retention, and handling scores.</p></div></div></section>
+  {featuredPosts.length>0 && <section class="culinary-container py-12 md:py-20"><div class="mb-12 grid gap-6 md:grid-cols-[0.85fr_1.15fr] md:items-end"><div><p class="section-kicker">Featured Editorial</p><h2 class="section-title mt-3">Kitchen authority notes</h2></div><div><p class="text-lg leading-8 text-muted-foreground">High-density guides with source-backed timing, safety warnings, and practical kitchen tradeoffs.</p><a href="/posts/" class="btn-secondary mt-5">View library →</a></div></div><div class="grid grid-cols-12 gap-6 md:gap-8">{featuredPosts[0] && <div class="col-span-12 md:col-span-7"><ArticleCard title={featuredPosts[0].data.title} description={featuredPosts[0].data.description} href={`/posts/${featuredPosts[0].slug}/`} image={featuredPosts[0].data.heroImage} category={featuredPosts[0].data.category} pubDate={featuredPosts[0].data.pubDate} variant="feature" index={0}/></div>}{featuredPosts.slice(1).map((post,i)=><div class="col-span-12 md:col-span-5"><ArticleCard title={post.data.title} description={post.data.description} href={`/posts/${post.slug}/`} image={post.data.heroImage} category={post.data.category} pubDate={post.data.pubDate} index={i+1}/></div>)}</div></section>}
+  <section class="culinary-container py-12 md:py-20"><div class="mb-10 flex flex-col justify-between gap-4 md:flex-row md:items-end"><div><p class="section-kicker">Culinary Systems</p><h2 class="section-title mt-3">Safety charts and tool scores</h2></div><a href="/safety/" class="btn-primary self-start md:self-auto">Open safety table</a></div><div class="grid gap-5 md:grid-cols-3"><div class="culinary-card p-6"><h3 class="text-3xl font-semibold text-primary" style="font-family: var(--font-display);">Safety fact checks</h3><p class="mt-3 text-muted-foreground">Sidebars for storage times, cross-contamination, and stop rules.</p></div><div class="culinary-card p-6"><h3 class="text-3xl font-semibold text-primary" style="font-family: var(--font-display);">Tool scorecards</h3><p class="mt-3 text-muted-foreground">Durability, heat retention, weight, and cleanup in one card.</p></div><div class="culinary-card p-6"><h3 class="text-3xl font-semibold text-primary" style="font-family: var(--font-display);">Warm editorial grid</h3><p class="mt-3 text-muted-foreground">Cream surfaces and serif headings preserve professional warmth.</p></div></div></section>
+  {recentPosts.length>0 && <section id="latest" class="culinary-container py-12 md:py-20"><div class="mb-10"><p class="section-kicker">Latest Updates</p><h2 class="section-title mt-3">Recently tested guides</h2></div><div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">{recentPosts.map((post,i)=><ArticleCard title={post.data.title} description={post.data.description} href={`/posts/${post.slug}/`} image={post.data.heroImage} category={post.data.category} pubDate={post.data.pubDate} index={i+3}/>)}</div></section>}
 </BaseLayout>
