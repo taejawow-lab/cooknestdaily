@@ -1,0 +1,182 @@
+{
+  "generated_at": "2026-06-09T16:14:35Z",
+  "batch": "A",
+  "date": "2026-06-10",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.1,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat beside produce, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, brand marks, product packaging labels"
+  },
+  "endpoint_redacted": "GTI13 direct ComfyUI endpoint recorded in root ops manifest; redacted for public report",
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1"
+  },
+  "site": "cooknestdaily",
+  "post": "src/content/posts/leftover-rice-cooling-reheating-food-safety-routine.mdx",
+  "slug": "leftover-rice-cooling-reheating-food-safety-routine",
+  "title": "Leftover Rice Cooling and Reheating Food Safety Routine",
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-leftover-rice-20260610-hero.png",
+      "filename": "cnd-leftover-rice-20260610-hero.png",
+      "prompt": "realistic clean kitchen scene with cooked rice being portioned into shallow containers, steam, refrigerator nearby, no labels, no raw meat",
+      "seed": 202606100107,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "3dd4f70d-ab87-4105-8a40-f01272af863f",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260610_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1501525,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-leftover-rice-20260610-01.png",
+      "filename": "cnd-leftover-rice-20260610-01.png",
+      "prompt": "realistic shallow containers of cooked rice cooling on clean counter with timer-like blank object no numbers no text",
+      "seed": 202606100108,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "9b3b2700-16b6-45c2-9dad-2e1f81b13170",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260610_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1491157,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-leftover-rice-20260610-02.png",
+      "filename": "cnd-leftover-rice-20260610-02.png",
+      "prompt": "realistic refrigerator shelf with sealed rice containers separated from raw foods, no labels no text",
+      "seed": 202606100109,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "8365ae01-7764-4dd4-8ac7-5b7a2bceb46f",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260610_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1208136,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-leftover-rice-20260610-03.png",
+      "filename": "cnd-leftover-rice-20260610-03.png",
+      "prompt": "realistic reheating rice in plain bowl with steam and food thermometer turned away unreadable, no text",
+      "seed": 202606100110,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "0383322b-b4cf-4a22-bedf-dd08eba6a6c9",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260610_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1539222,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-leftover-rice-20260610-04.png",
+      "filename": "cnd-leftover-rice-20260610-04.png",
+      "prompt": "realistic meal prep station with rice, vegetables separate, clean utensils, no raw meat, no labels",
+      "seed": 202606100111,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "18223486-0c50-4da7-b2fc-52291de5543f",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260610_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1689174,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-leftover-rice-20260610-05.png",
+      "filename": "cnd-leftover-rice-20260610-05.png",
+      "prompt": "realistic discard decision scene with sealed rice container and clean kitchen trash area, no mold closeup no text",
+      "seed": 202606100112,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "94aee5ed-ce13-4cdd-a6cf-f4724c4cea4b",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260610_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1473819,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "visual_qa_summary": "Contact sheet created; accepted only after visual QA confirms no unsafe/text/UI artifacts."
+}
