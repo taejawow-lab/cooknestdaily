@@ -1,0 +1,175 @@
+{
+  "generated_at": "2026-06-10T16:14:21Z",
+  "batch": "A",
+  "date": "2026-06-11",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.2,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, exposed wires, raw meat beside produce, vehicle dashboard numbers, road sign text, brand marks, product packaging labels, unsafe child restraint, child face closeup"
+  },
+  "endpoint": "REDACTED_DIRECT_GTI13",
+  "site": "cooknestdaily",
+  "post": "src/content/posts/farmers-market-egg-cooler-transport-food-safety-plan.mdx",
+  "slug": "farmers-market-egg-cooler-transport-food-safety-plan",
+  "title": "Farmers Market Egg Cooler Transport Food Safety Plan",
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-market-egg-cooler-20260611-hero.png",
+      "filename": "cnd-market-egg-cooler-20260611-hero.png",
+      "prompt": "realistic farmers market egg transport prep with plain cooler, ice packs, closed egg carton with no labels, clean tote, no readable text no brands",
+      "seed": 202606110707,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "3bd8a9aa-f238-49c1-b744-b537cc62f175",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260611_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1736621,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-market-egg-cooler-20260611-01.png",
+      "filename": "cnd-market-egg-cooler-20260611-01.png",
+      "prompt": "realistic market table with closed plain egg cartons and cooler nearby, no labels, no text, no raw meat",
+      "seed": 202606110708,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "0d3db868-b050-4d2e-8649-f5d2049feacf",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260611_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1645906,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-market-egg-cooler-20260611-02.png",
+      "filename": "cnd-market-egg-cooler-20260611-02.png",
+      "prompt": "realistic cooler packing scene with ice packs and sealed plain egg carton, no labels, no text",
+      "seed": 202606110709,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "67b42cf6-8aba-4312-9644-2bbdf2f54efd",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260611_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1259146,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-market-egg-cooler-20260611-03.png",
+      "filename": "cnd-market-egg-cooler-20260611-03.png",
+      "prompt": "realistic car trunk grocery transport with cooler secured in shade, no brand marks, no text",
+      "seed": 202606110710,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "41b23898-6e80-4e2d-aef6-ffc0b67cb6f7",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260611_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1664615,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-market-egg-cooler-20260611-04.png",
+      "filename": "cnd-market-egg-cooler-20260611-04.png",
+      "prompt": "realistic refrigerator shelf with sealed egg carton away from raw meat, no labels, no text",
+      "seed": 202606110711,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "1a9fb6ac-8fd1-4da3-998c-e0fb2866292e",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260611_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1387716,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-market-egg-cooler-20260611-05.png",
+      "filename": "cnd-market-egg-cooler-20260611-05.png",
+      "prompt": "realistic kitchen decision scene with closed carton, thermometer turned away blank, clean counter, no readable text",
+      "seed": 202606110712,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "d1cbe997-000c-4da1-82a1-52a3bde6ef53",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260611_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1251857,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.2,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "visual_qa": "Passed final contact-sheet QA after regeneration/exclusions noted in central report; no placeholder/SVG images counted."
+}
