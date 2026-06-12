@@ -1,0 +1,253 @@
+{
+  "slug": "no-cook-summer-meal-food-safety-heat-plan",
+  "title": "No-Cook Summer Meal Food Safety Heat Plan",
+  "post": "src/content/posts/no-cook-summer-meal-food-safety-heat-plan.mdx",
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-no-cook-meal-heat-20260613-hero.png",
+      "filename": "cnd-no-cook-meal-heat-20260613-hero.png",
+      "prompt": "realistic safe no cook summer meal prep with sealed containers, cut fruit separated, cooler packs, clean counter, no raw meat, no text",
+      "positive_prompt": "realistic safe no cook summer meal prep with sealed containers, cut fruit separated, cooler packs, clean counter, no raw meat, no text, professional realistic editorial photography, text-free safe factual scene",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels, documents, receipts, forms, calculator, currency, license plates, readable signs, child face closeup",
+      "seed": 202606131107,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "93f76833-4e30-44f8-ba7c-73c8d0ccee0b",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260613_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1821038
+    },
+    {
+      "file": "public/images/illustrations/cnd-no-cook-meal-heat-20260613-01.png",
+      "filename": "cnd-no-cook-meal-heat-20260613-01.png",
+      "prompt": "realistic refrigerator shelf with sealed no cook meal containers and cold packs, no labels, no raw meat near produce",
+      "positive_prompt": "realistic refrigerator shelf with sealed no cook meal containers and cold packs, no labels, no raw meat near produce, professional realistic editorial photography, text-free safe factual scene",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels, documents, receipts, forms, calculator, currency, license plates, readable signs, child face closeup",
+      "seed": 202606131108,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "3c8ed3a6-fbfa-4803-8fcb-e93864380328",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260613_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1440443
+    },
+    {
+      "file": "public/images/illustrations/cnd-no-cook-meal-heat-20260613-02.png",
+      "filename": "cnd-no-cook-meal-heat-20260613-02.png",
+      "prompt": "realistic clean picnic cooler packing scene with ice packs, covered bowls, no readable packaging",
+      "positive_prompt": "realistic clean picnic cooler packing scene with ice packs, covered bowls, no readable packaging, professional realistic editorial photography, text-free safe factual scene",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels, documents, receipts, forms, calculator, currency, license plates, readable signs, child face closeup",
+      "seed": 202606131109,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "5f16958a-ee96-4145-ae5f-852840002aa0",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260613_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 2032230
+    },
+    {
+      "file": "public/images/illustrations/cnd-no-cook-meal-heat-20260613-03.png",
+      "filename": "cnd-no-cook-meal-heat-20260613-03.png",
+      "prompt": "realistic cut melon and salad prep with clean board and washed produce, no raw meat, no text",
+      "positive_prompt": "realistic cut melon and salad prep with clean board and washed produce, no raw meat, no text, professional realistic editorial photography, text-free safe factual scene",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels, documents, receipts, forms, calculator, currency, license plates, readable signs, child face closeup",
+      "seed": 202606131110,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "2c5b85b0-2b36-40b1-8244-c4f7f6d393d8",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260613_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1745853
+    },
+    {
+      "file": "public/images/illustrations/cnd-no-cook-meal-heat-20260613-04.png",
+      "filename": "cnd-no-cook-meal-heat-20260613-04.png",
+      "prompt": "realistic serving table in shade with covered cold foods and tongs, no labels or signs",
+      "positive_prompt": "realistic serving table in shade with covered cold foods and tongs, no labels or signs, professional realistic editorial photography, text-free safe factual scene",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels, documents, receipts, forms, calculator, currency, license plates, readable signs, child face closeup",
+      "seed": 202606131111,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "907b21d0-41ea-4471-86a9-4b1d81b307f1",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260613_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1772337
+    },
+    {
+      "file": "public/images/illustrations/cnd-no-cook-meal-heat-20260613-05.png",
+      "filename": "cnd-no-cook-meal-heat-20260613-05.png",
+      "prompt": "realistic leftover return routine with sealed containers, refrigerator, blank sticky notes with no writing",
+      "positive_prompt": "realistic leftover return routine with sealed containers, refrigerator, blank sticky notes with no writing, professional realistic editorial photography, text-free safe factual scene",
+      "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels, documents, receipts, forms, calculator, currency, license plates, readable signs, child face closeup",
+      "seed": 202606131112,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "prompt_id": "3566af9a-1001-43a9-a64f-a3893c512664",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260613_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1216048
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260613-cooknestdaily-contact-sheet.jpg",
+  "preflight": {
+    "cmd": [
+      "python3",
+      "bin/preflight_topic_quality_gate.py",
+      "--site",
+      "cooknestdaily",
+      "--slug",
+      "no-cook-summer-meal-food-safety-heat-plan",
+      "--title",
+      "No-Cook Summer Meal Food Safety Heat Plan"
+    ],
+    "rc": 0,
+    "stdout": "{\n  \"ok\": true,\n  \"site\": \"cooknestdaily\",\n  \"slug\": \"no-cook-summer-meal-food-safety-heat-plan\",\n  \"title\": \"No-Cook Summer Meal Food Safety Heat Plan\",\n  \"candidate_tokens\": [\n    \"cook\",\n    \"food\",\n    \"meal\"\n  ],\n  \"threshold\": 0.42,\n  \"near_duplicates\": []\n}\n",
+    "stderr": ""
+  },
+  "source_results": [
+    {
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.foodsafety.gov/keep-food-safe",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/prevention/index.html",
+      "status": 200,
+      "final": "https://www.cdc.gov/food-safety/prevention/index.html"
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/signs-symptoms/index.html",
+      "status": 200,
+      "final": "https://www.cdc.gov/food-safety/signs-symptoms/index.html"
+    },
+    {
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "status": 200,
+      "final": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely"
+    },
+    {
+      "url": "https://www.fda.gov/food/consumers/people-risk-foodborne-illness",
+      "status": 200,
+      "final": "https://www.fda.gov/food/consumers/people-risk-foodborne-illness"
+    },
+    {
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-safety-while-hiking-camping-and-boating",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    }
+  ],
+  "visual_qa_summary": "Contact sheet created; all assets are new GTI13 PNGs at 1536x864.",
+  "gate": {
+    "host": "gti13",
+    "time": 1781280999,
+    "available": true,
+    "reason": "ok",
+    "manual_pause": false,
+    "gaming_detected": false,
+    "game_processes": [],
+    "gpu": {
+      "available": true,
+      "name": "NVIDIA GeForce RTX 4090",
+      "vram_total_mb": 24564,
+      "vram_free_mb": 15247,
+      "utilization_percent": 0
+    },
+    "services": {
+      "comfyui_8188": true,
+      "ollama_11434": true
+    }
+  },
+  "host": "gti13",
+  "endpoint": "redacted-gti13-direct-8188",
+  "workflow": {
+    "steps": 26,
+    "cfg": 5.0,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe wiring, raw meat beside produce, exposed wires, wrong dashboard, fake warning labels, documents, receipts, forms, calculator, currency, license plates, readable signs, child face closeup"
+  }
+}
