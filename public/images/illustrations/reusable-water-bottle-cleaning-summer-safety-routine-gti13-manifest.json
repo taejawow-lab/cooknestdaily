@@ -1,0 +1,163 @@
+{
+  "date": "2026-06-14",
+  "site": "cooknestdaily",
+  "slug": "reusable-water-bottle-cleaning-summer-safety-routine",
+  "host": "gti13",
+  "endpoint": "redacted-direct-gti13-comfyui",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.1,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat beside produce, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, brand marks, product packaging labels, gauge numbers, thermometer numbers"
+  },
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1"
+  },
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-water-bottle-cleaning-20260614-hero.png",
+      "filename": "cnd-water-bottle-cleaning-20260614-hero.png",
+      "prompt": "realistic clean kitchen scene with reusable water bottle parts separated on drying rack, bottle brush, clean sink, no readable labels, no logos",
+      "seed": 202606140107,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b4ff6c88-7423-4c0b-842e-9377a8a72411",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260614_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1633719,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-water-bottle-cleaning-20260614-01.png",
+      "filename": "cnd-water-bottle-cleaning-20260614-01.png",
+      "prompt": "realistic reusable bottle cap, straw, silicone gasket and brush separated on clean white kitchen towel beside sink, no carpet, no labels, no text",
+      "seed": 202606149002,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "ba8e228e-4c75-4aa2-a236-88ffa2d74081",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260614_fix_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok_regenerated_after_visual_qa",
+      "bytes": 1411252,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-water-bottle-cleaning-20260614-02.png",
+      "filename": "cnd-water-bottle-cleaning-20260614-02.png",
+      "prompt": "realistic hand washing reusable water bottle at clean sink with soap bubbles, no brand marks, no packaging text",
+      "seed": 202606140109,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "816e3c0e-ed13-456f-be02-bb2d0f551efa",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260614_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1497467,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-water-bottle-cleaning-20260614-03.png",
+      "filename": "cnd-water-bottle-cleaning-20260614-03.png",
+      "prompt": "realistic drying rack with open bottle, straw, lid, good airflow, bright kitchen, no labels",
+      "seed": 202606140110,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b8129747-5a9e-4550-9328-10d3dbde9324",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260614_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1655382,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-water-bottle-cleaning-20260614-04.png",
+      "filename": "cnd-water-bottle-cleaning-20260614-04.png",
+      "prompt": "realistic gym bag scene with clean bottle stored empty and open beside towel, no logos no text",
+      "seed": 202606140111,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "bb97c072-bdd1-4954-9bf2-ed8d151dd23e",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260614_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1609436,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-water-bottle-cleaning-20260614-05.png",
+      "filename": "cnd-water-bottle-cleaning-20260614-05.png",
+      "prompt": "realistic car summer scene with reusable bottle removed from hot cup holder, blank bottle, no dashboard numbers no labels",
+      "seed": 202606140112,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "1ce774ad-6120-4ec6-9440-46375645e977",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260614_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "bytes": 1674083,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "visual_qa": "accepted after contact-sheet QA; bodywiselab 01 and greenlivingtrend 01 regenerated twice; cooknestdaily 01 and drive-insight 03/04 regenerated once; final2 sheets accepted for affected sites."
+}
