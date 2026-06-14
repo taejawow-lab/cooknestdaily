@@ -1,0 +1,179 @@
+{
+  "generated_at": "2026-06-14T16:15:01Z",
+  "batch": "A",
+  "date": "2026-06-15",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.05,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat beside produce, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, brand marks, product packaging labels, clock face numbers, watch face, phone screen, app interface, dashboard numbers, appliance control panel, warning label text"
+  },
+  "endpoint": "redacted-direct-gti13-comfyui",
+  "site": "cooknestdaily",
+  "slug": "cutting-board-sanitizing-after-raw-meat-routine",
+  "title": "Cutting Board Sanitizing After Raw Meat Routine",
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-cutting-board-sanitize-20260615-hero.png",
+      "filename": "cnd-cutting-board-sanitize-20260615-hero.png",
+      "prompt": "realistic clean kitchen cleanup station with empty plain cutting board beside sink, dish brush, plain towel, no food at all, no raw meat, no produce, no labels, no text",
+      "seed": 202606150401,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "8ffea8ec-c0e3-44a8-8142-d652bd9e65d4",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260615_visualfix2_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1587616,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true,
+      "qa_note": "Second regeneration after strict final visual QA."
+    },
+    {
+      "file": "public/images/illustrations/cnd-cutting-board-sanitize-20260615-01.png",
+      "filename": "cnd-cutting-board-sanitize-20260615-01.png",
+      "prompt": "realistic separated kitchen prep zones after cleanup with two empty plain cutting boards on opposite counters, no food at all, no raw meat, no produce, no packaging, no labels, no text",
+      "seed": 202606150402,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "c8c483f1-4115-43ac-8ed5-6de5c595aac5",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260615_visualfix2_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1525224,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "qa_replacement": true,
+      "qa_note": "Second regeneration after strict final visual QA."
+    },
+    {
+      "file": "public/images/illustrations/cnd-cutting-board-sanitize-20260615-02.png",
+      "filename": "cnd-cutting-board-sanitize-20260615-02.png",
+      "prompt": "realistic dishwashing sink cleanup setup with sponge holder, plain soap bottle turned away, cutting board upright, no brand marks no text",
+      "seed": 202606150109,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "cf3ed60d-86ed-4b1b-88f7-2df711af694f",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260615_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1509243,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.05,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-cutting-board-sanitize-20260615-03.png",
+      "filename": "cnd-cutting-board-sanitize-20260615-03.png",
+      "prompt": "realistic sanitizing setup with plain measuring cup turned away, clean board on counter, gloves, no readable labels, no raw meat near produce",
+      "seed": 202606150110,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "df708d9f-6331-4827-a386-f9e707c71d48",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260615_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1615828,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.05,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-cutting-board-sanitize-20260615-04.png",
+      "filename": "cnd-cutting-board-sanitize-20260615-04.png",
+      "prompt": "realistic ready-to-eat salad prep area on separate clean board after cleanup, no raw meat nearby, no packaging text",
+      "seed": 202606150111,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "372bd5c7-4e49-4bf4-adc8-a0121df3b285",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260615_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1606295,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.05,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-cutting-board-sanitize-20260615-05.png",
+      "filename": "cnd-cutting-board-sanitize-20260615-05.png",
+      "prompt": "realistic drying rack with clean cutting board standing vertically, towel set aside, bright kitchen, no labels no text",
+      "seed": 202606150112,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "78fbd378-6da3-4d35-a83e-c237a3c28885",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260615_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1497173,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.05,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "visual_qa_summary": "Final2 contact sheet updated after visual QA replacements; accepted assets match MDX references and manifest.",
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260615-cooknestdaily-contact-sheet-final2.jpg"
+}
