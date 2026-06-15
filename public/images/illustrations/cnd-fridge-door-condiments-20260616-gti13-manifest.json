@@ -1,0 +1,202 @@
+{
+  "slug": "refrigerator-door-condiments-summer-food-safety-plan",
+  "title": "Refrigerator Door Condiments and Summer Food Safety Plan",
+  "post": "src/content/posts/refrigerator-door-condiments-summer-food-safety-plan.mdx",
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-fridge-door-condiments-20260616-hero.png",
+      "filename": "cnd-fridge-door-condiments-20260616-hero.png",
+      "prompt": "realistic open refrigerator door with plain unlabeled matte containers and jars turned completely away, no packaging, no labels, no text, no brands",
+      "seed": 202606161002,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "7b8b9f70-e07a-414b-b371-f1f28171c848",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260616_final_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok-final-regenerated",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1350742,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-fridge-door-condiments-20260616-01.png",
+      "filename": "cnd-fridge-door-condiments-20260616-01.png",
+      "prompt": "realistic refrigerator door storage with plain closed bottles and jars turned away, no readable labels no numbers",
+      "seed": 202606160108,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "20e4ac64-33fb-42e5-90d7-47990e45082c",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260616_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1209159,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-fridge-door-condiments-20260616-02.png",
+      "filename": "cnd-fridge-door-condiments-20260616-02.png",
+      "prompt": "realistic kitchen counter sorting condiments and leftovers into sealed containers, no labels no raw meat",
+      "seed": 202606160109,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "33829a8d-7f93-48ee-9d3f-94b1bc46ecae",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260616_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1565294,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-fridge-door-condiments-20260616-03.png",
+      "filename": "cnd-fridge-door-condiments-20260616-03.png",
+      "prompt": "realistic refrigerator shelves organized with plain unlabeled containers and closed jars turned away, no packaging labels, no text, no brands",
+      "seed": 202606161003,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "ca376c09-f2ed-402a-8ab2-ff0089d47812",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260616_final_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok-final-regenerated",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1489874,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-fridge-door-condiments-20260616-04.png",
+      "filename": "cnd-fridge-door-condiments-20260616-04.png",
+      "prompt": "realistic summer meal prep cleanup with condiments returned to fridge promptly, blank containers no labels",
+      "seed": 202606160111,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "5b810b43-24af-4ddf-8ba2-e5a97766106a",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260616_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1525059,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-fridge-door-condiments-20260616-05.png",
+      "filename": "cnd-fridge-door-condiments-20260616-05.png",
+      "prompt": "realistic food safety planning flat lay with plain cooler pack, sealed jar, blank card, no readable text",
+      "seed": 202606160112,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b1cf4fe3-01d0-42fd-8b34-43e6647592c2",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260616_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1870651,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260616-cooknestdaily-contact-sheet.jpg",
+  "source_validation": [
+    {
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration",
+      "status": "caveat",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.foodsafety.gov/keep-food-safe",
+      "status": "caveat",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "status": "caveat",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/index.html",
+      "status": 200,
+      "final": "https://www.cdc.gov/food-safety/index.html"
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/prevention/index.html",
+      "status": 200,
+      "final": "https://www.cdc.gov/food-safety/prevention/index.html"
+    },
+    {
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/are-you-storing-food-safely",
+      "status": "caveat",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/usda-meat-and-poultry-hotline",
+      "status": "caveat",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-food-safely-while-eating-outdoors",
+      "status": "caveat",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    }
+  ],
+  "visual_qa_summary": "Final contact sheet regenerated after QA replacements; accepted for staging if final inspection passes.",
+  "contact_sheet_final": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260616-cooknestdaily-contact-sheet-final.jpg"
+}
