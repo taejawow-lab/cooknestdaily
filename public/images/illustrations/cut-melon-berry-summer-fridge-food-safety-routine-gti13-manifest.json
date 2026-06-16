@@ -1,0 +1,195 @@
+{
+  "site": "cooknestdaily",
+  "slug": "cut-melon-berry-summer-fridge-food-safety-routine",
+  "source": "GTI13 direct ComfyUI",
+  "host": "gti13",
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "sentinel_url": "http://192.168.50.30:9199/status",
+    "comfy_url": "http://192.168.50.29:8188",
+    "services": {
+      "comfyui_8188": true,
+      "sentinel_9199": false
+    },
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1",
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 25756696576,
+        "vram_free": 17098519522,
+        "torch_vram_total": 6979321856,
+        "torch_vram_free": 31896546
+      }
+    ],
+    "queue": {
+      "queue_running": [],
+      "queue_pending": []
+    }
+  },
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.1,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat beside produce, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, brand marks, product packaging labels"
+  },
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-melon-berry-fridge-20260617-hero.png",
+      "filename": "cnd-melon-berry-fridge-20260617-hero.png",
+      "prompt": "realistic clean kitchen prep scene with whole melon, berries in colander, clean cutting board, sealed containers, no raw meat, no labels, no readable text",
+      "seed": 202606170107,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "1bc096a3-bab6-4325-9b1d-e750d1750ebf",
+      "comfy_output": {
+        "filename": "hermes_batch_a_retry_20260617_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1752687,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-melon-berry-fridge-20260617-01.png",
+      "filename": "cnd-melon-berry-fridge-20260617-01.png",
+      "prompt": "realistic whole melon washing prep at clean sink with berries separate in colander, no raw meat, no text",
+      "seed": 202606170108,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "0293930f-ade0-4ab3-ab76-e368cd4d3958",
+      "comfy_output": {
+        "filename": "hermes_batch_a_retry_20260617_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1701401,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-melon-berry-fridge-20260617-02.png",
+      "filename": "cnd-melon-berry-fridge-20260617-02.png",
+      "prompt": "realistic clean cutting board scene with melon pieces and clean knife, berries away from splash zone, no labels",
+      "seed": 202606170109,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "9c9b5bd0-62e1-4463-af02-d1901afbcbe2",
+      "comfy_output": {
+        "filename": "hermes_batch_a_retry_20260617_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1753539,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-melon-berry-fridge-20260617-03.png",
+      "filename": "cnd-melon-berry-fridge-20260617-03.png",
+      "prompt": "realistic refrigerator shelf with sealed clear containers of cut melon and berries, no raw meat nearby, no labels",
+      "seed": 202606170110,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "abc7ef7f-11db-430d-8526-0f7124ca6565",
+      "comfy_output": {
+        "filename": "hermes_batch_a_retry_20260617_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1753911,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-melon-berry-fridge-20260617-04.png",
+      "filename": "cnd-melon-berry-fridge-20260617-04.png",
+      "prompt": "realistic picnic serving tray with chilled covered fruit containers and ice packs, no raw meat, no text",
+      "seed": 202606170111,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "7ce38f55-b09b-4d53-ba86-5f64867675f3",
+      "comfy_output": {
+        "filename": "hermes_batch_a_retry_20260617_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1921882,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-melon-berry-fridge-20260617-05.png",
+      "filename": "cnd-melon-berry-fridge-20260617-05.png",
+      "prompt": "realistic kitchen discard decision scene with sealed clear leftover container of cut melon and berries on clean counter near trash bin, no raw meat, no citrus-only fruit, no labels, no readable text",
+      "seed": 202606170302,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "5b0ae0b4-b438-4e9e-b09e-927c317b03d0",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260617_regen_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "regenerated_after_visual_qa",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1562254,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "visual_qa_summary": "Final contact sheet inspected; initially rejected assets regenerated and final set accepted for publication."
+}
