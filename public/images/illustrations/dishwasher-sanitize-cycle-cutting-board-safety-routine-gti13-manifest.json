@@ -1,0 +1,218 @@
+{
+  "generated_at": "2026-06-19T16:14:57Z",
+  "batch": "A 20260620 cron",
+  "date": "2026-06-20",
+  "host": "gti13",
+  "direct_comfyui": true,
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "workflow": {
+    "steps": 24,
+    "cfg": 5.1,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative_prompt": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat beside produce, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, brand marks, product packaging labels"
+  },
+  "gate": {
+    "available": true,
+    "reason": "sentinel_unreachable_but_direct_comfyui_ok",
+    "sentinel_url": "http://192.168.50.30:9199/status",
+    "comfy_url": "http://192.168.50.29:8188",
+    "services": {
+      "comfyui_8188": true,
+      "sentinel_9199": false
+    },
+    "manual_pause": false,
+    "direct_fallback": true,
+    "comfyui_version": "0.20.1",
+    "devices": [
+      {
+        "name": "cuda:0 NVIDIA GeForce RTX 4090 : cudaMallocAsync",
+        "type": "cuda",
+        "index": 0,
+        "vram_total": 25756696576,
+        "vram_free": 17098519522,
+        "torch_vram_total": 6979321856,
+        "torch_vram_free": 31896546
+      }
+    ],
+    "queue": {
+      "queue_running": [],
+      "queue_pending": []
+    }
+  },
+  "preflight": {
+    "returncode": 0,
+    "stdout": "{\n  \"ok\": true,\n  \"site\": \"cooknestdaily\",\n  \"slug\": \"dishwasher-sanitize-cycle-cutting-board-safety-routine\",\n  \"title\": \"Dishwasher Sanitize Cycle and Cutting Board Safety Routine\",\n  \"candidate_tokens\": [\n    \"board\",\n    \"cutting\",\n    \"cycle\",\n    \"dishwasher\",\n    \"sanitize\"\n  ],\n  \"threshold\": 0.42,\n  \"near_duplicates\": []\n}\n",
+    "stderr": ""
+  },
+  "site": "cooknestdaily",
+  "post": "src/content/posts/dishwasher-sanitize-cycle-cutting-board-safety-routine.mdx",
+  "slug": "dishwasher-sanitize-cycle-cutting-board-safety-routine",
+  "title": "Dishwasher Sanitize Cycle and Cutting Board Safety Routine",
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-dishwasher-board-20260620-hero.png",
+      "filename": "cnd-dishwasher-board-20260620-hero.png",
+      "prompt": "realistic clean kitchen with dishwasher open, plain cutting boards separated by color-like shapes without labels, clean counter, no raw meat, no text",
+      "seed": 202606200107,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "d9e785d2-9d76-43c0-b86c-19713ae8c1af",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260620_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1349640,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-dishwasher-board-20260620-01.png",
+      "filename": "cnd-dishwasher-board-20260620-01.png",
+      "prompt": "realistic dishwasher rack with clean cutting board and utensils, no labels, no text, no raw meat",
+      "seed": 202606200108,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "f4b2ffc3-f4f0-4ae3-a8cd-0400b0fe8c21",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260620_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1569226,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-dishwasher-board-20260620-02.png",
+      "filename": "cnd-dishwasher-board-20260620-02.png",
+      "prompt": "realistic separate cutting boards on clean counter with vegetables in bowl and sealed raw-food tray far away, no labels",
+      "seed": 202606200109,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "aefd5881-a2c7-4fbe-81b1-7d0ef41968b1",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260620_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1622791,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-dishwasher-board-20260620-03.png",
+      "filename": "cnd-dishwasher-board-20260620-03.png",
+      "prompt": "realistic handwashing and board cleaning setup with plain brush and blank soap bottle turned away, no readable text",
+      "seed": 202606200110,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a3c3b87d-61b5-4ec9-9103-7aa259176cd4",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260620_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1265196,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-dishwasher-board-20260620-04.png",
+      "filename": "cnd-dishwasher-board-20260620-04.png",
+      "prompt": "realistic drying rack with cutting board standing upright, clean towel, no logos, no text",
+      "seed": 202606200111,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "133ec224-f842-45f4-99bc-5c250d9ee4a7",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260620_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1542119,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-dishwasher-board-20260620-05.png",
+      "filename": "cnd-dishwasher-board-20260620-05.png",
+      "prompt": "realistic decision scene with clean dishwasher, sealed storage containers, blank cards, no readable text",
+      "seed": 202606200112,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "3b6268fd-a29b-4932-9a53-c6ab1d113711",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260620_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1713597,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "sources": [
+    "https://www.cdc.gov/food-safety/prevention/index.html",
+    "https://www.cdc.gov/food-safety/foods/index.html",
+    "https://www.cdc.gov/food-safety/risk-factors/index.html",
+    "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cleanliness-helps-prevent-foodborne-illness",
+    "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cutting-boards-and-food-safety",
+    "https://www.fda.gov/food/people-risk-foodborne-illness/food-safety-your-kitchen",
+    "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety#clean",
+    "https://www.cdc.gov/handwashing/when-how-handwashing.html"
+  ],
+  "visual_qa_summary": "Initial contact-sheet visual QA passed: no readable labels/text, unsafe scenes, or subject mismatch requiring regeneration.",
+  "regenerated_after_visual_qa": []
+}
