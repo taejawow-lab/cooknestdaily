@@ -1,0 +1,186 @@
+{
+  "site": "cooknestdaily",
+  "date": "2026-06-21",
+  "slug": "grilled-burger-leftover-reheat-food-safety-plan",
+  "title": "Grilled Burger Leftover Reheat Food Safety Plan",
+  "endpoint_host": "gti13-direct-comfyui",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "assets": [
+    {
+      "filename": "cnd-burger-leftover-20260621-hero.png",
+      "path": "public/images/illustrations/cnd-burger-leftover-20260621-hero.png",
+      "render_url": "/images/illustrations/cnd-burger-leftover-20260621-hero.png",
+      "prompt": "realistic clean backyard cookout prep with cooked burgers on clean platter, thermometer set aside with blank display, sealed containers, no raw meat near cooked food, no labels no text",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat near cooked food, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, license plate, currency, receipt, form, calculator numbers, product packaging labels",
+      "seed": 622300,
+      "prompt_id": "54335e71-1c17-4c66-a77d-d9e573146d83",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13-direct-comfyui",
+      "basic_qa": {
+        "size": [
+          1536,
+          864
+        ],
+        "ok": true
+      },
+      "comfy_output": {
+        "filename": "cnd-burger-leftover-20260621-hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "cnd-burger-leftover-20260621-01.png",
+      "path": "public/images/illustrations/cnd-burger-leftover-20260621-01.png",
+      "render_url": "/images/illustrations/cnd-burger-leftover-20260621-01.png",
+      "prompt": "realistic grill station with raw patties separated from clean cooked platter, utensils separated, no labels no text",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat near cooked food, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, license plate, currency, receipt, form, calculator numbers, product packaging labels",
+      "seed": 622301,
+      "prompt_id": "a1a6a4e2-7028-4479-85ce-59986c8656b8",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13-direct-comfyui",
+      "basic_qa": {
+        "size": [
+          1536,
+          864
+        ],
+        "ok": true
+      },
+      "comfy_output": {
+        "filename": "cnd-burger-leftover-20260621-01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "cnd-burger-leftover-20260621-02.png",
+      "path": "public/images/illustrations/cnd-burger-leftover-20260621-02.png",
+      "render_url": "/images/illustrations/cnd-burger-leftover-20260621-02.png",
+      "prompt": "realistic cooked burgers transferred to clean plate with covered containers nearby, no raw meat touching cooked food, no text",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat near cooked food, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, license plate, currency, receipt, form, calculator numbers, product packaging labels",
+      "seed": 622302,
+      "prompt_id": "31402488-097d-4322-94e3-e2835e114679",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13-direct-comfyui",
+      "basic_qa": {
+        "size": [
+          1536,
+          864
+        ],
+        "ok": true
+      },
+      "comfy_output": {
+        "filename": "cnd-burger-leftover-20260621-02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "cnd-burger-leftover-20260621-03.png",
+      "path": "public/images/illustrations/cnd-burger-leftover-20260621-03.png",
+      "render_url": "/images/illustrations/cnd-burger-leftover-20260621-03.png",
+      "prompt": "realistic kitchen cooling leftovers in shallow sealed containers on clean counter, no labels no text",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat near cooked food, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, license plate, currency, receipt, form, calculator numbers, product packaging labels",
+      "seed": 622303,
+      "prompt_id": "3a41ae71-190e-45a4-8704-82d486d05d94",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13-direct-comfyui",
+      "basic_qa": {
+        "size": [
+          1536,
+          864
+        ],
+        "ok": true
+      },
+      "comfy_output": {
+        "filename": "cnd-burger-leftover-20260621-03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "filename": "cnd-burger-leftover-20260621-04.png",
+      "path": "public/images/illustrations/cnd-burger-leftover-20260621-04.png",
+      "render_url": "/images/illustrations/cnd-burger-leftover-20260621-04.png",
+      "prompt": "realistic refrigerator shelf with sealed plain containers of cooked burger leftovers, no raw meat, no loose burger, no labels, no text, clean food safety scene",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat near cooked food, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, license plate, currency, receipt, form, calculator numbers, product packaging labels",
+      "seed": 622900,
+      "prompt_id": "dec97fb5-0023-4c4e-af55-6c48d0e71457",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13-direct-comfyui",
+      "basic_qa": {
+        "size": [
+          1536,
+          864
+        ],
+        "ok": true
+      },
+      "comfy_output": {
+        "filename": "cnd-burger-leftover-20260621-04-regen_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "visual_qa": "regenerated_after_contact_sheet_rejection"
+    },
+    {
+      "filename": "cnd-burger-leftover-20260621-05.png",
+      "path": "public/images/illustrations/cnd-burger-leftover-20260621-05.png",
+      "render_url": "/images/illustrations/cnd-burger-leftover-20260621-05.png",
+      "prompt": "realistic reheating setup with skillet and closed thermometer turned away blank, clean plate, no numbers no labels",
+      "negative": "text, words, letters, numbers, logo, watermark, brand name, readable labels, screen text, UI screenshot, distorted interface, fake labels, bad hands, bad anatomy, extra fingers, low quality, blurry, cartoon, placeholder, generic stock art, calendar grid, handwriting, QR code, payment screen, login form, medical chart text, unsafe posture, raw meat near cooked food, unsafe wiring, exposed wires, vehicle dashboard numbers, road sign text, license plate, currency, receipt, form, calculator numbers, product packaging labels",
+      "seed": 622305,
+      "prompt_id": "782aec08-ba58-420c-9fd8-c9e79dd1bba3",
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "endpoint_host": "gti13-direct-comfyui",
+      "basic_qa": {
+        "size": [
+          1536,
+          864
+        ],
+        "ok": true
+      },
+      "comfy_output": {
+        "filename": "cnd-burger-leftover-20260621-05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    }
+  ],
+  "contact_sheet": "public/images/illustrations/cnd-burger-leftover-20260621-contact-sheet.jpg",
+  "visual_qa": "PASS: final contact sheet inspected; regenerated rejected unsafe/mismatched tiles before build",
+  "qa_replacements": [
+    {
+      "site": "cooknestdaily",
+      "file": "public/images/illustrations/cnd-burger-leftover-20260621-04.png",
+      "prompt_id": "dec97fb5-0023-4c4e-af55-6c48d0e71457"
+    }
+  ]
+}
