@@ -1,0 +1,216 @@
+{
+  "slug": "home-fermented-pickles-jar-safety-routine",
+  "title": "Home Fermented Pickles Jar Safety Routine",
+  "post": "src/content/posts/home-fermented-pickles-jar-safety-routine.mdx",
+  "word_count": 1550,
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-fermented-pickles-20260623-hero.png",
+      "filename": "cnd-fermented-pickles-20260623-hero.png",
+      "render_url": "/images/illustrations/cnd-fermented-pickles-20260623-hero.png",
+      "prompt": "realistic home kitchen pickle fermentation setup with clean glass jars, cucumbers, dill, plain blank labels, no readable text, no unsafe mess",
+      "seed": 202606230107,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "3f221984-c842-4dd6-9895-786645b62f3f",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260623_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1783889,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-fermented-pickles-20260623-01.png",
+      "filename": "cnd-fermented-pickles-20260623-01.png",
+      "render_url": "/images/illustrations/cnd-fermented-pickles-20260623-01.png",
+      "prompt": "realistic clean kitchen counter with washed cucumbers, garlic, dill, glass jars, blank cards, no text",
+      "seed": 202606230108,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "a54bfe68-262d-4f36-86ac-f45f385cc5e2",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260623_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1699242,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-fermented-pickles-20260623-02.png",
+      "filename": "cnd-fermented-pickles-20260623-02.png",
+      "render_url": "/images/illustrations/cnd-fermented-pickles-20260623-02.png",
+      "prompt": "realistic brine preparation scene with plain measuring cup turned away, salt bowl, clean utensils, no readable numbers",
+      "seed": 202606230109,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "f775cc92-dd81-4cc1-82c7-1da2582af9fe",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260623_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1537282,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-fermented-pickles-20260623-03.png",
+      "filename": "cnd-fermented-pickles-20260623-03.png",
+      "render_url": "/images/illustrations/cnd-fermented-pickles-20260623-03.png",
+      "prompt": "realistic clear glass jar of cucumber pickles submerged below clean brine with plain lid, no embossed lettering, no label, no mold, clean kitchen background",
+      "seed": 202606231501,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "215c3411-902d-431b-b9c3-8a69a7f90749",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260623_final_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "regenerated_final_qa",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1596644,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-fermented-pickles-20260623-04.png",
+      "filename": "cnd-fermented-pickles-20260623-04.png",
+      "render_url": "/images/illustrations/cnd-fermented-pickles-20260623-04.png",
+      "prompt": "realistic refrigerator shelf with sealed pickle jar and plain containers, no brand labels no text",
+      "seed": 202606230111,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "90d08c69-df2d-4e58-943d-63abf4b69e51",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260623_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1455886,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-fermented-pickles-20260623-05.png",
+      "filename": "cnd-fermented-pickles-20260623-05.png",
+      "render_url": "/images/illustrations/cnd-fermented-pickles-20260623-05.png",
+      "prompt": "realistic safe discard decision for questionable pickle jar: sealed plain glass jar set aside beside cleaning cloth, no visible mold closeup, no labels, no text, clean counter",
+      "seed": 202606231502,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "0ada4b0d-b073-40c0-a8c8-25e24dbe5f9f",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260623_final_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "regenerated_final_qa",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1548070,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260623-cooknestdaily-contact-sheet.jpg",
+  "source_validation": [
+    {
+      "url": "https://nchfp.uga.edu/resources/category/usda-guide",
+      "status": 200,
+      "effective_url": "https://nchfp.uga.edu/resources/category/usda-guide",
+      "ok": true
+    },
+    {
+      "url": "https://nchfp.uga.edu/how/ferment/",
+      "status": 200,
+      "effective_url": "https://nchfp.uga.edu/how/ferment/",
+      "ok": true
+    },
+    {
+      "url": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+      "status": 200,
+      "effective_url": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+      "ok": true
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/prevention/index.html",
+      "status": 200,
+      "effective_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.cdc.gov/food-safety/prevention/index.html",
+      "status": 200,
+      "effective_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+      "ok": true
+    },
+    {
+      "url": "https://www.fda.gov/food/fda-food-code/food-code-2022",
+      "error": "URLError: <urlopen error [Errno -3] Temporary failure in name resolution>",
+      "ok": false
+    },
+    {
+      "url": "https://www.foodsafety.gov/food-poisoning/symptoms",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "ok": false
+    },
+    {
+      "url": "https://hgic.clemson.edu/factsheet/dill-pickles-sauerkraut/",
+      "status": 200,
+      "effective_url": "https://hgic.clemson.edu/factsheet/dill-pickles-sauerkraut/",
+      "ok": true
+    }
+  ],
+  "status": "generated_pending_visual_qa",
+  "contact_sheet_final": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260623-cooknestdaily-contact-sheet-final.jpg",
+  "visual_qa": "regenerated rejected panels; final contact sheet pending inspection"
+}
