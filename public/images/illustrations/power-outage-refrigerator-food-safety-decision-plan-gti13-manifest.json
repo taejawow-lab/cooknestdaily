@@ -1,0 +1,281 @@
+{
+  "site": "cooknestdaily",
+  "slug": "power-outage-refrigerator-food-safety-decision-plan",
+  "title": "Power Outage Refrigerator Food Safety Decision Plan",
+  "date": "2026-06-24",
+  "host": "gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "dimensions": [
+    1536,
+    864
+  ],
+  "gate": {
+    "host": "gti13",
+    "time": 1782231650,
+    "available": true,
+    "reason": "ok",
+    "manual_pause": false,
+    "gaming_detected": false,
+    "game_processes": [],
+    "gpu": {
+      "available": true,
+      "name": "NVIDIA GeForce RTX 4090",
+      "vram_total_mb": 24564,
+      "vram_free_mb": 15509,
+      "utilization_percent": 0
+    },
+    "services": {
+      "comfyui_8188": true,
+      "ollama_11434": true
+    }
+  },
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-power-outage-fridge-20260624-hero.png",
+      "filename": "cnd-power-outage-fridge-20260624-hero.png",
+      "prompt": "realistic closed refrigerator in calm kitchen during power outage with flashlight and cooler nearby, no visible labels, no raw meat, no readable text",
+      "seed": 202606240107,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "f73c60b0-3d08-4b10-a3cb-9a53dd544502",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260624_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1288886,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-power-outage-fridge-20260624-01.png",
+      "filename": "cnd-power-outage-fridge-20260624-01.png",
+      "prompt": "realistic cooler packing setup with sealed containers and ice packs, no labels, no raw meat next to produce",
+      "seed": 202606240108,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "5b3658a9-aa81-471e-9792-406003c515f1",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260624_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1468510,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-power-outage-fridge-20260624-02.png",
+      "filename": "cnd-power-outage-fridge-20260624-02.png",
+      "prompt": "realistic kitchen counter with flashlight, blank notepad, closed fridge, no readable text",
+      "seed": 202606240109,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "d378bddd-df65-4631-82c9-b7c54c7d8078",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260624_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1351913,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-power-outage-fridge-20260624-03.png",
+      "filename": "cnd-power-outage-fridge-20260624-03.png",
+      "prompt": "realistic safe discarded-food decision still life with sealed trash bag and gloves, no spoiled food closeup, no labels",
+      "seed": 202606240110,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "b005e84d-28cf-48bb-9509-ff532c42764b",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260624_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1264447,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-power-outage-fridge-20260624-04.png",
+      "filename": "cnd-power-outage-fridge-20260624-04.png",
+      "prompt": "realistic freezer organization scene with plain containers and ice packs, no brand marks no text",
+      "seed": 202606240111,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "8efdce7a-020a-45ee-97ef-de95b08ba82f",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260624_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1571193,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    },
+    {
+      "file": "public/images/illustrations/cnd-power-outage-fridge-20260624-05.png",
+      "filename": "cnd-power-outage-fridge-20260624-05.png",
+      "prompt": "realistic hand washing and sanitizing kitchen scene with plain soap bottle turned away, no labels, no raw meat",
+      "seed": 202606240112,
+      "dimensions": [
+        1536,
+        864
+      ],
+      "prompt_id": "220bb23a-3097-4ebf-b1ba-dd6914c27d0a",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260624_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "status": "ok",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1289317,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras"
+    }
+  ],
+  "visual_qa_summary": "Final contact sheet written after targeted replacements; accepted for build/publish if final QA passes.",
+  "final_contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260624-cooknestdaily-contact-sheet-final.jpg",
+  "source_validation": {
+    "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/emergencies/keep-your-food-safe-during-emergencies": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/emergencies/keep-your-food-safe-during-emergencies",
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ]
+    },
+    "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/keeping-food-safe-during": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/keeping-food-safe-during",
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ]
+    },
+    "https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency",
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ]
+    },
+    "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+          "content_type": "text/html"
+        }
+      ]
+    },
+    "https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://www.fda.gov/about-fda/page-not-found",
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ]
+    },
+    "https://www.ready.gov/power-outages": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://www.ready.gov/power-outages",
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ]
+    },
+    "https://www.cdc.gov/food-safety/prevention/index.html": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+          "content_type": "text/html"
+        }
+      ]
+    },
+    "https://www.foodsafety.gov/keep-food-safe/foodkeeper-app": {
+      "ok": true,
+      "attempts": [
+        {
+          "ua": "Mozilla/5.0 HermesCron/20260624",
+          "status": 200,
+          "effective_url": "https://www.foodsafety.gov/keep-food-safe/foodkeeper-app",
+          "content_type": "text/html; charset=UTF-8"
+        }
+      ]
+    }
+  },
+  "preflight": {
+    "returncode": 0,
+    "stdout": "{\n  \"ok\": true,\n  \"site\": \"cooknestdaily\",\n  \"slug\": \"power-outage-refrigerator-food-safety-decision-plan\",\n  \"title\": \"Power Outage Refrigerator Food Safety Decision Plan\",\n  \"candidate_tokens\": [\n    \"decision\",\n    \"food\",\n    \"outage\",\n    \"power\",\n    \"refrigerator\"\n  ],\n  \"threshold\": 0.42,\n  \"near_duplicates\": []\n}\n",
+    "stderr": ""
+  }
+}
