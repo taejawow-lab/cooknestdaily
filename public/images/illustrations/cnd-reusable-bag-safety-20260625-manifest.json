@@ -1,0 +1,156 @@
+{
+  "site": "cooknestdaily",
+  "slug": "reusable-grocery-bag-raw-meat-produce-safety-routine",
+  "title": "Reusable Grocery Bag Raw Meat and Produce Safety Routine",
+  "date": "2026-06-25",
+  "host": "gti13",
+  "endpoint": "redacted-direct-gti13",
+  "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+  "width": 1536,
+  "height": 864,
+  "assets": [
+    {
+      "file": "public/images/illustrations/cnd-reusable-bag-safety-20260625-hero.png",
+      "filename": "cnd-reusable-bag-safety-20260625-hero.png",
+      "prompt": "realistic clean grocery unpacking counter with separate plain washable reusable bags, produce in one bag and a closed opaque cooler bag for raw meat far away, no visible meat, no labels, no text",
+      "seed": 202606251101,
+      "prompt_id": "ad049439-46d0-4b6b-b9ae-15820fb13e9b",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1547828,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 28,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260625_final2_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated_for_visual_qa": true,
+      "regenerated_for_visual_qa_final2": true
+    },
+    {
+      "file": "public/images/illustrations/cnd-reusable-bag-safety-20260625-01.png",
+      "filename": "cnd-reusable-bag-safety-20260625-01.png",
+      "prompt": "realistic grocery cart organization with separate plain reusable bags and sealed packages, no labels, no text",
+      "seed": 202606250108,
+      "prompt_id": "5135e809-2cc6-4859-b7e7-186c0018de0f",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 2036595,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260625_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/cnd-reusable-bag-safety-20260625-02.png",
+      "filename": "cnd-reusable-bag-safety-20260625-02.png",
+      "prompt": "realistic kitchen counter food safety setup with closed opaque raw-meat container in a separate bin far from covered produce bags, no visible raw meat, no labels, no text",
+      "seed": 202606251102,
+      "prompt_id": "2e0e8c8d-b281-49fa-8963-50f8d6810a64",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1548321,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 28,
+      "cfg": 4.8,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260625_final2_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated_for_visual_qa": true,
+      "regenerated_for_visual_qa_final2": true
+    },
+    {
+      "file": "public/images/illustrations/cnd-reusable-bag-safety-20260625-03.png",
+      "filename": "cnd-reusable-bag-safety-20260625-03.png",
+      "prompt": "realistic reusable cloth bag washing prep near laundry sink, blank tag, no text or logos",
+      "seed": 202606250110,
+      "prompt_id": "6946813f-2d97-4757-9fe6-7612c896d270",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1520455,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 24,
+      "cfg": 5.1,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260625_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      }
+    },
+    {
+      "file": "public/images/illustrations/cnd-reusable-bag-safety-20260625-04.png",
+      "filename": "cnd-reusable-bag-safety-20260625-04.png",
+      "prompt": "realistic refrigerator lower shelf with sealed opaque meat container in a bin and produce drawer closed above, no visible raw meat, no labels or text",
+      "seed": 202606250903,
+      "prompt_id": "cf9cd637-a50c-4333-bce9-9fd148929df4",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1485264,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260625_final_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated_for_visual_qa": true
+    },
+    {
+      "file": "public/images/illustrations/cnd-reusable-bag-safety-20260625-05.png",
+      "filename": "cnd-reusable-bag-safety-20260625-05.png",
+      "prompt": "realistic grocery routine flat lay with plain reusable bags, whole produce in separate area, blank cards face down, no raw meat visible, no text",
+      "seed": 202606250904,
+      "prompt_id": "7761e761-0c1b-4227-80fa-50443ca1c6d6",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "bytes": 1660690,
+      "checkpoint": "Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors",
+      "steps": 26,
+      "cfg": 5.0,
+      "sampler": "dpmpp_2m",
+      "scheduler": "karras",
+      "comfy_output": {
+        "filename": "hermes_batch_a_20260625_final_cooknestdaily_05_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "regenerated_for_visual_qa": true
+    }
+  ],
+  "contact_sheets": {
+    "contact_sheet": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260625-cooknestdaily-contact-sheet.jpg",
+    "contact_sheet_final": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260625-cooknestdaily-contact-sheet-final.jpg",
+    "contact_sheet_final2": "/home/taekm33/blog-ops/16-sites/reports/batch-a-20260625-cooknestdaily-contact-sheet-final2.jpg"
+  }
+}
