@@ -1,60 +1,20 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-
-const siteName = import.meta.env.PUBLIC_SITE_NAME || 'CookNestDaily';
-const lang = import.meta.env.PUBLIC_SITE_LANG || 'en';
-const hasIllust = import.meta.env.PUBLIC_HAS_CATEGORY_ILLUSTRATION === 'true';
-
-const sections = lang === 'ko' ? [
-  { label: 'I', title: '인용하는 출처', items: ['학술 데이터베이스: PubMed, Cochrane, SSRN, NBER', '정부 공시: 보건복지부, 식약처, 통계청, 금감원, 한국소비자원', '학회 가이드라인: 대한소아청소년과학회, 한국영양학회 등', '제조사 공식 사양서', '검증된 측정 매체: RTINGS, Wirecutter, Cook\'s Illustrated'] },
-  { label: 'II', title: '인용하지 않는 출처', items: ['Wikipedia 본문 (다만 1차 자료 발견용 참고는 OK)', '다른 블로그·체험기', '인플루언서 리뷰', '업체 홍보 자료 (사양서 외)'] },
-  { label: 'III', title: '정정 정책', body: '오류 발견 시 24시간 내 수정. 본문에 "Updated YYYY-MM-DD: [변경 사항]" 명시.' },
-  { label: 'IV', title: '협찬·후원 정책', body: '광고비를 받은 추천은 없습니다. 어필리에이트 수수료(쿠팡파트너스 등)는 글 시작과 푸터에 명시합니다.' },
-  { label: 'V', title: 'AI 사용 정책', body: '모든 글은 AI 도구의 보조를 받아 작성됩니다. 모든 1차 자료는 사람이 검증합니다.' }
-] : [
-  { label: 'I', title: 'Sources We Cite', items: ['Academic databases: PubMed, Cochrane, SSRN, NBER', 'Government data: BLS, FDA, EPA, FTC, CFPB, NHTSA', 'Industry standards: AVMA, AAFCO, NIST, ISO, IEEE', 'Manufacturer official specifications', 'Verified measurement publications: RTINGS, Wirecutter'] },
-  { label: 'II', title: 'Sources We Avoid', items: ['Wikipedia article body (acceptable as discovery for primary sources)', 'Other blogs, personal testimonials', 'Influencer reviews', 'Vendor marketing material (specifications excepted)'] },
-  { label: 'III', title: 'Corrections Policy', body: 'Errors are corrected within 24 hours of discovery. Updates are logged inline as "Updated YYYY-MM-DD: [change]".' },
-  { label: 'IV', title: 'Sponsorship Policy', body: 'We never accept payment for recommendations. Affiliate fees are disclosed at the top of each article and in the footer.' },
-  { label: 'V', title: 'AI Usage Policy', body: 'All articles are produced with AI assistance. All primary sources are verified by humans before publication.' }
-];
-
-const heading = lang === 'ko' ? '편집 기준' : 'Editorial Standards';
 ---
-
-<BaseLayout title="Editorial Standards" description={`${siteName} editorial standards`}>
-  <article class="container mx-auto px-6 md:px-10 py-16 md:py-24">
-    <div class="grid grid-cols-12 gap-x-6 md:gap-x-8 items-end mb-16 md:mb-24">
-      <div class="col-span-12 md:col-span-7">
-        <p class="text-[10px] uppercase tracking-[0.25em] font-mono text-accent mb-4">¶ Standards · I–V</p>
-        <h1 class="text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.92] tracking-[-0.025em] mb-6 text-balance" style="font-family: var(--font-display);">
-          {heading}
-        </h1>
-      </div>
-      {hasIllust && (
-        <div class="col-span-12 md:col-span-5 mt-10 md:mt-0 md:-ml-8 lg:-ml-16 relative">
-          <div class="absolute inset-0 bg-accent/15 rotate-2 rounded-sm" aria-hidden="true"></div>
-          <img src="/images/illustrations/category.png" alt="" class="relative w-full h-auto rounded-sm -rotate-[1deg] shadow-[0_30px_80px_-30px_rgba(0,0,0,0.25)]" loading="eager" />
-        </div>
-      )}
-    </div>
-
-    <div class="space-y-14">
-      {sections.map((s) => (
-        <div class="grid grid-cols-12 gap-x-6 md:gap-x-8 pb-12 border-b border-border last:border-b-0">
-          <div class="col-span-12 md:col-span-2">
-            <p class="text-5xl md:text-6xl font-bold leading-none tracking-[-0.03em] text-accent" style="font-family: var(--font-display);">{s.label}</p>
-          </div>
-          <div class="col-span-12 md:col-span-10 mt-4 md:mt-1">
-            <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.01em] mb-5" style="font-family: var(--font-display);">{s.title}</h2>
-            {s.items && (
-              <ul class="space-y-2.5 text-[17px] leading-[1.7] text-foreground/75 list-none pl-0">
-                {s.items.map(it => <li class="border-l-2 border-border pl-4">{it}</li>)}
-              </ul>
-            )}
-            {s.body && <p class="text-[17px] leading-[1.7] text-foreground/75 max-w-3xl">{s.body}</p>}
-          </div>
-        </div>
+<BaseLayout title="Editorial Standards" description="CookNest Daily editorial standards for food-safety and cooking guidance.">
+  <article class="culinary-container py-16 md:py-24">
+    <p class="section-kicker">Standards · Source and safety rules</p>
+    <h1 class="section-title mt-3">Editorial standards</h1>
+    <div class="mt-12 grid gap-6 lg:grid-cols-2">
+      {[
+        ['Official-source priority','Food-safety claims are checked against FoodSafety.gov, USDA FSIS, FDA, CDC, cooperative extensions, manufacturer manuals, or other primary/standards-based sources before publication.'],
+        ['No unsupported medical claims','Articles do not diagnose symptoms, promise prevention, or override professional advice. Illness, pregnancy, immune risk, child feeding, and public events require conservative handling.'],
+        ['Visible stop rules','Each safety article should state what to discard, when to stop, and what information is not knowable from appearance, smell, or taste.'],
+        ['Specific kitchen workflows','We prefer topic-specific workflows over generic filler. A useful article names the tool, food state, temperature/time control, cleanup step, and handoff point.'],
+        ['Affiliate transparency','Most food-safety articles are non-affiliate. If affiliate links appear, the page must disclose them clearly and recommendations cannot be bought.'],
+        ['Corrections','Known errors are corrected promptly. Material updates should receive an updatedDate and, where useful, an inline note explaining the changed guidance.']
+      ].map(([title, body]) => (
+        <section class="culinary-card p-6"><h2 class="text-3xl font-semibold text-primary" style="font-family: var(--font-display);">{title}</h2><p class="mt-3 text-muted-foreground leading-7">{body}</p></section>
       ))}
     </div>
   </article>

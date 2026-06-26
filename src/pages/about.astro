@@ -1,75 +1,25 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-
 const siteName = import.meta.env.PUBLIC_SITE_NAME || 'CookNestDaily';
-const siteDescription = import.meta.env.PUBLIC_SITE_DESCRIPTION || '';
-const lang = import.meta.env.PUBLIC_SITE_LANG || 'en';
-const hasIllust = import.meta.env.PUBLIC_HAS_ABOUT_ILLUSTRATION === 'true';
+const siteDescription = import.meta.env.PUBLIC_SITE_DESCRIPTION || 'Practical food-safety and weeknight cooking guides built around official sources and kitchen checklists.';
 ---
+<BaseLayout title="About" description={`About ${siteName}: practical food-safety and kitchen workflow guidance.`}>
+  <article class="culinary-container py-16 md:py-24">
+    <p class="section-kicker">About · CookNest Daily</p>
+    <h1 class="section-title mt-3">Practical food-safety guidance for everyday kitchens</h1>
+    <p class="mt-6 max-w-3xl text-lg leading-8 text-muted-foreground">{siteDescription}</p>
 
-<BaseLayout title="About" description={`About ${siteName}`}>
-  <article class="container mx-auto px-6 md:px-10 py-16 md:py-24">
-    <!-- editorial header -->
-    <div class="grid grid-cols-12 gap-x-6 md:gap-x-8 items-end mb-16 md:mb-20">
-      <div class="col-span-12 md:col-span-7">
-        <p class="text-[10px] uppercase tracking-[0.25em] font-mono text-accent mb-4">¶ Colophon · About</p>
-        <h1 class="text-6xl md:text-7xl lg:text-8xl font-bold leading-[0.92] tracking-[-0.025em] mb-6 text-balance" style="font-family: var(--font-display);">
-          About {siteName}
-        </h1>
-        <p class="text-lg md:text-xl text-foreground/70 max-w-xl leading-relaxed">
-          {siteDescription}
-        </p>
-      </div>
-      {hasIllust && (
-        <div class="col-span-12 md:col-span-5 mt-10 md:mt-0 md:-ml-8 lg:-ml-16 relative">
-          <div class="absolute inset-0 bg-primary/15 -rotate-2 rounded-sm" aria-hidden="true"></div>
-          <img src="/images/illustrations/about.png" alt="" class="relative w-full h-auto rounded-sm rotate-[1.5deg] shadow-[0_30px_80px_-30px_rgba(0,0,0,0.25)]" loading="eager" />
-        </div>
-      )}
-    </div>
+    <section class="mt-12 grid gap-6 md:grid-cols-3">
+      <div class="culinary-card p-6"><span class="safety-badge">Mission</span><h2 class="mt-4 text-3xl font-semibold text-primary" style="font-family: var(--font-display);">Make safety actionable</h2><p class="mt-3 text-muted-foreground">We turn official food-safety guidance into household workflows: what to measure, what to separate, what to label, and when to discard.</p></div>
+      <div class="culinary-card p-6"><span class="safety-badge">Sources</span><h2 class="mt-4 text-3xl font-semibold text-primary" style="font-family: var(--font-display);">Official first</h2><p class="mt-3 text-muted-foreground">Core references come from FoodSafety.gov, USDA FSIS, FDA, CDC, cooperative extensions, and other primary or standards-based sources.</p></div>
+      <div class="culinary-card p-6"><span class="safety-badge">Limits</span><h2 class="mt-4 text-3xl font-semibold text-primary" style="font-family: var(--font-display);">No diagnosis</h2><p class="mt-3 text-muted-foreground">We do not diagnose illness or replace medical, public-health, or local regulatory guidance. High-risk situations should use professional advice.</p></div>
+    </section>
 
-    <!-- body -->
-    <div class="grid grid-cols-12 gap-x-6 md:gap-x-8 prose-article max-w-none">
-      <div class="col-span-12 md:col-span-3 mb-8 md:mb-0">
-        <p class="text-[10px] uppercase tracking-[0.25em] font-mono text-muted-foreground sticky top-28">
-          ¶ Editorial mission
-        </p>
-      </div>
-      <div class="col-span-12 md:col-span-8 md:col-start-5 space-y-6 text-[17px] leading-[1.7]">
-        {lang === 'ko' ? (
-          <>
-            <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.01em]" style="font-family: var(--font-display);">운영 원칙</h2>
-            <p>{siteName}는 단일 분야의 1차 자료(정부 통계, 학술 연구, 제조사 데이터, 검증된 매체)를 종합하는 큐레이션 매체입니다. 개별 작가의 경험·의견이 아니라, 인용 가능한 데이터와 출처로 모든 주장을 지지합니다.</p>
-
-            <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.01em] mt-12" style="font-family: var(--font-display);">편집부 가치</h2>
-            <ul class="space-y-3 list-none pl-0">
-              <li class="border-l-2 border-accent pl-4"><strong>데이터 우선</strong> — 모든 비교는 공식 자료에 기반합니다.</li>
-              <li class="border-l-2 border-accent pl-4"><strong>협찬 X</strong> — 광고비를 받은 추천은 없습니다. 어필리에이트 수수료는 푸터에 명시.</li>
-              <li class="border-l-2 border-accent pl-4"><strong>투명성</strong> — AI 도구의 보조를 받아 작성하며, 모든 데이터는 1차 자료에서 검증합니다.</li>
-              <li class="border-l-2 border-accent pl-4"><strong>검증 가능성</strong> — 모든 출처는 본문 링크로 직접 확인할 수 있습니다.</li>
-            </ul>
-
-            <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.01em] mt-12" style="font-family: var(--font-display);">제휴·협업·정정 요청</h2>
-            <p>이메일: <a href={`mailto:editor@${siteName.toLowerCase()}.org`} class="underline underline-offset-4 decoration-accent hover:text-primary">editor@{siteName.toLowerCase()}.org</a></p>
-          </>
-        ) : (
-          <>
-            <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.01em]" style="font-family: var(--font-display);">Editorial Mission</h2>
-            <p>{siteName} is a curation publication that aggregates primary sources (government statistics, peer-reviewed research, manufacturer data, and verified industry sources) within a single subject domain. We do not publish personal opinions or experience-based reviews — every claim is backed by citable data with linked sources.</p>
-
-            <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.01em] mt-12" style="font-family: var(--font-display);">Our Editorial Values</h2>
-            <ul class="space-y-3 list-none pl-0">
-              <li class="border-l-2 border-accent pl-4"><strong>Data First</strong> — Every comparison is grounded in official sources.</li>
-              <li class="border-l-2 border-accent pl-4"><strong>No Sponsored Placements</strong> — We never accept payment for recommendations. Affiliate disclosure in footer.</li>
-              <li class="border-l-2 border-accent pl-4"><strong>Transparency</strong> — Content is produced with AI assistance; all data is verified against primary sources.</li>
-              <li class="border-l-2 border-accent pl-4"><strong>Verifiability</strong> — Every source is linked inline for direct verification.</li>
-            </ul>
-
-            <h2 class="text-3xl md:text-4xl font-bold tracking-[-0.01em] mt-12" style="font-family: var(--font-display);">Contact for Corrections, Tips, or Partnerships</h2>
-            <p>Email: <a href={`mailto:editor@${siteName.toLowerCase()}.org`} class="underline underline-offset-4 decoration-accent hover:text-primary">editor@{siteName.toLowerCase()}.org</a></p>
-          </>
-        )}
-      </div>
-    </div>
+    <section class="mt-14 max-w-4xl space-y-6 text-[17px] leading-8 text-foreground/80">
+      <h2 class="text-4xl font-semibold text-primary" style="font-family: var(--font-display);">What makes a CookNest Daily article useful</h2>
+      <p>Every guide is written for a specific kitchen handoff: shopping to storage, raw prep to cooked serving, cooking to cooling, refrigerator to lunch bag, or appliance to cleanup. We avoid vague advice such as “be careful” unless it is attached to a measurable action.</p>
+      <p>Our preferred article format includes a risk table, a practical checklist, official-source links, a discard or stop rule, and reminders for higher-risk eaters. When a topic has uncertainty, we say so rather than pretending that a home kitchen can verify everything by smell, color, or taste.</p>
+      <p>Corrections and source updates can be requested by email: <a class="underline underline-offset-4 decoration-accent" href="mailto:editor@cooknestdaily.org">editor@cooknestdaily.org</a>.</p>
+    </section>
   </article>
 </BaseLayout>
