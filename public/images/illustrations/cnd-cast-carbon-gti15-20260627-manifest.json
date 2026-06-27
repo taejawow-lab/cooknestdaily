@@ -1,0 +1,35 @@
+{
+  "site": "cooknestdaily",
+  "slug": "cast-iron-vs-carbon-steel",
+  "backend": "GTI15 ComfyUI",
+  "endpoint": "redacted",
+  "dimensions": "1536x864",
+  "qa": "accepted by visual contact-sheet audit; rejected none of selected files; no readable text/logos/hands/people/screens/documents",
+  "assets": [
+    {
+      "file": "cnd-cast-carbon-gti15-20260627-01.png",
+      "engine": "krea",
+      "seed": 3499446335,
+      "renderUrl": "/images/illustrations/cnd-cast-carbon-gti15-20260627-01.png"
+    },
+    {
+      "file": "cnd-cast-carbon-gti15-20260627-02.png",
+      "engine": "realvis",
+      "seed": 3499446336,
+      "renderUrl": "/images/illustrations/cnd-cast-carbon-gti15-20260627-02.png"
+    },
+    {
+      "file": "cnd-cast-carbon-gti15-20260627-03.png",
+      "engine": "krea",
+      "seed": 1822958853,
+      "renderUrl": "/images/illustrations/cnd-cast-carbon-gti15-20260627-03.png"
+    },
+    {
+      "file": "cnd-cast-carbon-gti15-20260627-04.png",
+      "engine": "realvis",
+      "seed": 1822958854,
+      "renderUrl": "/images/illustrations/cnd-cast-carbon-gti15-20260627-04.png"
+    }
+  ],
+  "createdAt": "2026-06-27T14:42:54.417393+00:00"
+}
