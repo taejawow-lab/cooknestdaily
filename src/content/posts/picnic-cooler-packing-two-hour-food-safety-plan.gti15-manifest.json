@@ -1,0 +1,30 @@
+{
+  "site": "cooknestdaily",
+  "slug": "picnic-cooler-packing-two-hour-food-safety-plan",
+  "date": "2026-06-28",
+  "gti15_endpoint": "redacted direct GTI15 ComfyUI endpoint passed gate and smoke",
+  "dimensions": "1536x864",
+  "accepted_images": [
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/gti15_batch_a_20260628/cooknestdaily/picnic-cooler-packing/20260628_011524_krea_2860594995.png",
+      "public_url": "/images/illustrations/coo-picnic-cooler-packing-two-hour-food-safety-plan-20260628-1.png"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/gti15_batch_a_20260628/cooknestdaily/picnic-cooler-packing/20260628_011619_juggernaut_2860594997.png",
+      "public_url": "/images/illustrations/coo-picnic-cooler-packing-two-hour-food-safety-plan-20260628-2.png"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/gti15_batch_a_20260628_repair/cooknestdaily/cooler-packing-kitchen/20260628_012437_krea_1295508583.png",
+      "public_url": "/images/illustrations/coo-picnic-cooler-packing-two-hour-food-safety-plan-20260628-3.png"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/gti15_batch_a_20260628_repair/cooknestdaily/cooler-packing-kitchen/20260628_012529_juggernaut_1295508585.png",
+      "public_url": "/images/illustrations/coo-picnic-cooler-packing-two-hour-food-safety-plan-20260628-4.png"
+    },
+    {
+      "source": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/gti15_batch_a_20260628_repair/cooknestdaily/no-meat-sealed-extra/20260628_013228_krea_972658253.png",
+      "public_url": "/images/illustrations/coo-picnic-cooler-packing-two-hour-food-safety-plan-20260628-5.png"
+    }
+  ],
+  "visual_qa": "passed after rejecting listed failed candidates; accepted images only copied to repo"
+}
