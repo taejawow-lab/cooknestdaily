@@ -1,0 +1,56 @@
+{
+  "site": "cooknestdaily",
+  "slug": "freezer-inventory-leftover-labeling-rotation-plan",
+  "date": "2026-06-30",
+  "endpoint": "GTI15 ComfyUI endpoint (redacted)",
+  "dimensions": "1536x864",
+  "accepted_count": 5,
+  "assets": [
+    {
+      "engine": "krea",
+      "seed": 3147503116,
+      "prompt_id": "89f0b76e-9a6d-438a-9207-51bf0c115221",
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260630_images\\cooknestdaily\\run5_cooked_leftovers_no_labels\\20260630_012835_krea_3147503116.png",
+      "bytes": 1767915,
+      "seconds": 36,
+      "published": "public/images/illustrations/cnd-freezer-inventory-leftover-labeling-rotation-plan-20260630-1.png"
+    },
+    {
+      "engine": "realvis",
+      "seed": 3147503117,
+      "prompt_id": "7033bd11-eda5-40c1-99e3-a3912aee761e",
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260630_images\\cooknestdaily\\run5_cooked_leftovers_no_labels\\20260630_012912_realvis_3147503117.png",
+      "bytes": 1583137,
+      "seconds": 17,
+      "published": "public/images/illustrations/cnd-freezer-inventory-leftover-labeling-rotation-plan-20260630-2.png"
+    },
+    {
+      "engine": "juggernaut",
+      "seed": 3147503118,
+      "prompt_id": "c70ff164-402d-4bf8-b84d-5d02bea3a8c1",
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260630_images\\cooknestdaily\\run5_cooked_leftovers_no_labels\\20260630_012929_juggernaut_3147503118.png",
+      "bytes": 1681286,
+      "seconds": 17,
+      "published": "public/images/illustrations/cnd-freezer-inventory-leftover-labeling-rotation-plan-20260630-3.png"
+    },
+    {
+      "engine": "realvis",
+      "seed": 2839312836,
+      "prompt_id": "196e7464-0d4d-4d03-81f5-2ce48c97be49",
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260630_images\\cooknestdaily\\run6_organized_freezer_no_labels\\20260630_013023_realvis_2839312836.png",
+      "bytes": 1544385,
+      "seconds": 17,
+      "published": "public/images/illustrations/cnd-freezer-inventory-leftover-labeling-rotation-plan-20260630-4.png"
+    },
+    {
+      "engine": "juggernaut",
+      "seed": 2839312837,
+      "prompt_id": "cf96cd53-af5c-4897-935a-0efdc7e4e255",
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260630_images\\cooknestdaily\\run6_organized_freezer_no_labels\\20260630_013041_juggernaut_2839312837.png",
+      "bytes": 1391184,
+      "seconds": 17,
+      "published": "public/images/illustrations/cnd-freezer-inventory-leftover-labeling-rotation-plan-20260630-5.png"
+    }
+  ],
+  "visual_qa": "manual contact-sheet QA passed for selected assets; rejected assets excluded"
+}
