@@ -22,7 +22,8 @@ export const REVIEW_POSTS = [
   "refrigerator-thermometer-cold-storage-safety-2026",
   "reverse-sear-vs-traditional-steak",
   "sheet-pan-salmon-30-minutes",
-  "vacuum-sealing-vs-freezer"
+  "vacuum-sealing-vs-freezer",
+  "raw-cookie-dough-flour-egg-food-safety-plan"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;

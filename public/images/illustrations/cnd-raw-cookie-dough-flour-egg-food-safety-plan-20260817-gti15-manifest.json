@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "site": "cooknestdaily",
+  "slug": "raw-cookie-dough-flour-egg-food-safety-plan",
+  "generated_at": "2026-08-17",
+  "backend": "GTI15 ComfyUI",
+  "visual_qa": "PASS",
+  "accepted_count": 6,
+  "assets": [
+    {
+      "prompt_id": "72724ba9-9764-4df6-a4bf-1bf170185127",
+      "remote": {
+        "filename": "gti15_natural_juggernaut_00263_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260817\\cooknestdaily\\raw-dough\\20260817_013614_juggernaut_1795958589.png",
+      "bytes": 1591483,
+      "seconds": 15,
+      "engine": "juggernaut",
+      "seed": 1795958589,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260817/cooknestdaily/raw-dough/manifest.json",
+      "prompt": "raw cookie dough food safety article, tidy home kitchen counter with flour in an unlabeled glass bowl, eggs kept in a closed plain carton turned away, wooden spoon, empty baking sheet ready for oven, realistic editorial stock photo, no people, no hands, no faces, no text, no labels, no logos, no packaging text, no raw dough being eaten, physically plausible natural light",
+      "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "published_file": "cnd-raw-cookie-dough-flour-egg-food-safety-plan-20260817-1.png",
+      "sha256": "8e5f3e10e9d526776caa51e02a4a369c074265b532e98653a471a11fc84b4002"
+    },
+    {
+      "prompt_id": "c3d5d9fd-0a82-46c9-a59e-2b8b93ea1bdc",
+      "remote": {
+        "filename": "gti15_natural_realvis_00269_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260817-replacements\\cooknestdaily\\baked-choice\\20260817_014342_realvis_3049978737.png",
+      "bytes": 1599155,
+      "seconds": 16,
+      "engine": "realvis",
+      "seed": 3049978737,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260817-replacements/cooknestdaily/baked-choice/manifest.json",
+      "prompt": "raw cookie dough safety article showing the safe baked choice, fully baked plain cookies cooling on a metal rack beside a clean empty mixing bowl and a closed unmarked flour canister, realistic editorial stock photo, no people, no hands, no faces, no raw dough, no loose eggs, no text, no labels, no logos, no packaging, coherent kitchen objects",
+      "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "published_file": "cnd-raw-cookie-dough-flour-egg-food-safety-plan-20260817-2.png",
+      "sha256": "4ab2a86eec7f79cdbfca395cad67c2a4d8a22f2d0424ae797b2ec4499857d9b8"
+    },
+    {
+      "prompt_id": "8d27d8de-4cb8-424e-bf8f-c77b95f8be40",
+      "remote": {
+        "filename": "gti15_natural_juggernaut_00268_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260817-replacements\\cooknestdaily\\baked-choice\\20260817_014358_juggernaut_3049978738.png",
+      "bytes": 1478792,
+      "seconds": 15,
+      "engine": "juggernaut",
+      "seed": 3049978738,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260817-replacements/cooknestdaily/baked-choice/manifest.json",
+      "prompt": "raw cookie dough safety article showing the safe baked choice, fully baked plain cookies cooling on a metal rack beside a clean empty mixing bowl and a closed unmarked flour canister, realistic editorial stock photo, no people, no hands, no faces, no raw dough, no loose eggs, no text, no labels, no logos, no packaging, coherent kitchen objects",
+      "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "published_file": "cnd-raw-cookie-dough-flour-egg-food-safety-plan-20260817-3.png",
+      "sha256": "975687f9cb75672bf33cf8dfbfc94d08cf1d9e2f4a26c3232238850b7ea50343"
+    },
+    {
+      "prompt_id": "de47921a-df62-4db1-b674-d7daa179341a",
+      "remote": {
+        "filename": "gti15_natural_krea_00357_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260817-final-replacements\\cooknestdaily\\baked-tray\\20260817_014926_krea_1329236602.png",
+      "bytes": 1732037,
+      "seconds": 32,
+      "engine": "krea",
+      "seed": 1329236602,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260817-final-replacements/cooknestdaily/baked-tray/manifest.json",
+      "prompt": "safe baked cookie choice for raw dough food safety article, several fully baked plain cookies cooling on a simple metal rack beside a clean empty ceramic bowl and folded clean towel, realistic editorial stock photo, no people, no hands, no faces, no eggs, no raw dough, no flour, no jars, no packaging, no text, no labels, no logos, physically plausible",
+      "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "published_file": "cnd-raw-cookie-dough-flour-egg-food-safety-plan-20260817-4.png",
+      "sha256": "6f6cc64a4fd023cdeac7b294bd1788fda3e1f0ee100ce2284b0b883ee5187211"
+    },
+    {
+      "prompt_id": "51b6405b-e637-4e05-99f7-17633808301c",
+      "remote": {
+        "filename": "gti15_natural_realvis_00274_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260817-final-replacements\\cooknestdaily\\baked-tray\\20260817_014958_realvis_1329236603.png",
+      "bytes": 2003363,
+      "seconds": 28,
+      "engine": "realvis",
+      "seed": 1329236603,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260817-final-replacements/cooknestdaily/baked-tray/manifest.json",
+      "prompt": "safe baked cookie choice for raw dough food safety article, several fully baked plain cookies cooling on a simple metal rack beside a clean empty ceramic bowl and folded clean towel, realistic editorial stock photo, no people, no hands, no faces, no eggs, no raw dough, no flour, no jars, no packaging, no text, no labels, no logos, physically plausible",
+      "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "published_file": "cnd-raw-cookie-dough-flour-egg-food-safety-plan-20260817-5.png",
+      "sha256": "d0a69092a99df3c81e7303d5798dbd05618ee9fc9fbdc424da31a30e929804cb"
+    },
+    {
+      "prompt_id": "84d19366-5add-480a-a63a-e5e68ca9006a",
+      "remote": {
+        "filename": "gti15_natural_juggernaut_00273_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260817-final-replacements\\cooknestdaily\\baked-tray\\20260817_015027_juggernaut_1329236604.png",
+      "bytes": 1824081,
+      "seconds": 19,
+      "engine": "juggernaut",
+      "seed": 1329236604,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260817-final-replacements/cooknestdaily/baked-tray/manifest.json",
+      "prompt": "safe baked cookie choice for raw dough food safety article, several fully baked plain cookies cooling on a simple metal rack beside a clean empty ceramic bowl and folded clean towel, realistic editorial stock photo, no people, no hands, no faces, no eggs, no raw dough, no flour, no jars, no packaging, no text, no labels, no logos, physically plausible",
+      "negative": "people, person, face, hands, fingers, body, readable text, letters, numbers, logo, watermark, signature, fake user interface, app dock, icons, browser window, code screen, open laptop screen, monitor screen, document, forms, receipts, certificates, currency, medicine labels, policy paper, passport, distorted objects, warped laptop, impossible geometry, extra objects, clutter, blurry, low resolution, oversaturated, cartoon, anime, 3d render, illustration artifacts",
+      "published_file": "cnd-raw-cookie-dough-flour-egg-food-safety-plan-20260817-6.png",
+      "sha256": "bab9a1bae2a5ace8430060542c6454f9af2a3a0f62bfe578de3e2651ab0ef245"
+    }
+  ],
+  "rejected_candidates_not_published": true
+}
