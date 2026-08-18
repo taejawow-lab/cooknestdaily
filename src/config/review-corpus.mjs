@@ -23,7 +23,8 @@ export const REVIEW_POSTS = [
   "reverse-sear-vs-traditional-steak",
   "sheet-pan-salmon-30-minutes",
   "vacuum-sealing-vs-freezer",
-  "raw-cookie-dough-flour-egg-food-safety-plan"
+  "raw-cookie-dough-flour-egg-food-safety-plan",
+  "microwave-hot-spots-cold-centers-reheating-guide"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;

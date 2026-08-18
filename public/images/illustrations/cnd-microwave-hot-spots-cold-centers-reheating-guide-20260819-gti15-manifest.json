@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "site": "cooknestdaily",
+  "slug": "microwave-hot-spots-cold-centers-reheating-guide",
+  "generated_at": "2026-08-19",
+  "backend": "GTI15 ComfyUI",
+  "visual_qa": "PASS",
+  "accepted_count": 5,
+  "assets": [
+    {
+      "prompt_id": "48301993-f495-4fbb-b905-293160bec51e",
+      "remote": {
+        "filename": "gti15_natural_krea_00464_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260819\\cooknestdaily-3\\20260819_022128_krea_408416154.png",
+      "bytes": 1556640,
+      "seconds": 44,
+      "engine": "krea",
+      "seed": 408416154,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260819/cooknestdaily-3/manifest.json",
+      "published_file": "cnd-microwave-hot-spots-cold-centers-reheating-guide-20260819-1.png",
+      "sha256": "86bf9a0dd8e3253ff77a5af3317ae9ab1f55d18ecfaf4def365dd4e990346886",
+      "published_bytes": 1556640
+    },
+    {
+      "prompt_id": "f477e8a9-06d4-4f63-9cb5-ee99d9bb7c27",
+      "remote": {
+        "filename": "gti15_natural_krea_00461_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260819\\cooknestdaily-2\\20260819_021827_krea_2428458452.png",
+      "bytes": 1887128,
+      "seconds": 56,
+      "engine": "krea",
+      "seed": 2428458452,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260819/cooknestdaily-2/manifest.json",
+      "published_file": "cnd-microwave-hot-spots-cold-centers-reheating-guide-20260819-2.png",
+      "sha256": "29bf09b9ac17e16d09a63b3bf9eaa392cf5561abb6bcfd3589ed2085023998dc",
+      "published_bytes": 1887128
+    },
+    {
+      "prompt_id": "f6971bd9-9b6c-4956-932d-b640ebd11938",
+      "remote": {
+        "filename": "gti15_natural_realvis_00292_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260819\\cooknestdaily-2\\20260819_021924_realvis_2428458453.png",
+      "bytes": 1885830,
+      "seconds": 37,
+      "engine": "realvis",
+      "seed": 2428458453,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260819/cooknestdaily-2/manifest.json",
+      "published_file": "cnd-microwave-hot-spots-cold-centers-reheating-guide-20260819-3.png",
+      "sha256": "f4ebfdaa1f099582ce5f755a8e92ccb62ec091c25f88fd396ea1de8e30d229b6",
+      "published_bytes": 1885830
+    },
+    {
+      "prompt_id": "64d1084d-18ed-40be-b1d9-a38d1ce50700",
+      "remote": {
+        "filename": "gti15_natural_realvis_00295_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260819\\cooknestdaily-3\\20260819_022213_realvis_408416155.png",
+      "bytes": 1815778,
+      "seconds": 44,
+      "engine": "realvis",
+      "seed": 408416155,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260819/cooknestdaily-3/manifest.json",
+      "published_file": "cnd-microwave-hot-spots-cold-centers-reheating-guide-20260819-4.png",
+      "sha256": "2257b87e143462bc84f22d20e206085c537770cef7ffb5f38fef328798a8677f",
+      "published_bytes": 1815778
+    },
+    {
+      "prompt_id": "6e65199c-ec1e-4275-9889-6292284929b4",
+      "remote": {
+        "filename": "gti15_natural_juggernaut_00294_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "local": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch-a-20260819\\cooknestdaily-3\\20260819_022258_juggernaut_408416156.png",
+      "bytes": 1787378,
+      "seconds": 28,
+      "engine": "juggernaut",
+      "seed": 408416156,
+      "status": "ACCEPTED_VISUAL_QA",
+      "qa_required": "Reject if any fake text/UI/logos/hands/faces/distorted or nonsensical objects are visible.",
+      "source_manifest": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260819/cooknestdaily-3/manifest.json",
+      "published_file": "cnd-microwave-hot-spots-cold-centers-reheating-guide-20260819-5.png",
+      "sha256": "22f796369b65db0dd43b7c1e4f12787e728d607bbbff199d27cebd0e2d8b501e",
+      "published_bytes": 1787378
+    }
+  ],
+  "rejected_candidates_not_published": true
+}
