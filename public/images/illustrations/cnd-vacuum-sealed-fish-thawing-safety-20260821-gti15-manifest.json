@@ -1,0 +1,132 @@
+{
+  "batch": "A-20260821",
+  "site": "cooknestdaily",
+  "slug": "vacuum-sealed-fish-thawing-safety",
+  "generated_backend": "GTI15 ComfyUI",
+  "accepted_count": 5,
+  "visual_qa": "PASS final3: five accepted rasters; rejected hands, cross-contamination, open handling, and laptop scenes were regenerated.",
+  "assets": [
+    {
+      "prompt_id": "ef94d24f-db93-4e48-aabc-318bf13a8f8c",
+      "remote": {
+        "filename": "hermes_batch_a_20260821_regen_cooknestdaily_hero_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1721750,
+      "seconds": 12,
+      "suffix": "hero",
+      "filename": "cooknestdaily-20260821-hero.png",
+      "prompt": "plain frozen salmon fillets tightly vacuum sealed in completely clear unprinted plastic on a clean white rimmed tray inside a refrigerator, no other food, no meat, no people, no hands, no utensils, no labels or text",
+      "seed": 202608211004,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "ACCEPTED_VISUAL_QA",
+      "regeneration": true,
+      "published_file": "public/images/illustrations/cnd-vacuum-sealed-fish-thawing-safety-20260821-hero.png",
+      "published_url": "/images/illustrations/cnd-vacuum-sealed-fish-thawing-safety-20260821-hero.png"
+    },
+    {
+      "prompt_id": "5d88cb94-5396-40a9-b3d7-c84abb71e66b",
+      "remote": {
+        "filename": "hermes_batch_a_20260821_regen_cooknestdaily_01_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1575410,
+      "seconds": 12,
+      "suffix": "01",
+      "filename": "cooknestdaily-20260821-01.png",
+      "prompt": "clean freezer drawer containing only one plain frozen fish fillet tightly sealed in clear unprinted vacuum plastic on a tray, no other food, no hands, no labels, no text",
+      "seed": 202608211005,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "ACCEPTED_VISUAL_QA",
+      "regeneration": true,
+      "published_file": "public/images/illustrations/cnd-vacuum-sealed-fish-thawing-safety-20260821-01.png",
+      "published_url": "/images/illustrations/cnd-vacuum-sealed-fish-thawing-safety-20260821-01.png"
+    },
+    {
+      "prompt_id": "4138a494-0144-43d0-9290-a37bf5028db0",
+      "remote": {
+        "filename": "hermes_batch_a_20260821_regen2_cooknestdaily_02_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1589904,
+      "seconds": 12,
+      "suffix": "02",
+      "filename": "cooknestdaily-20260821-02.png",
+      "prompt": "plain raw salmon fillet resting inside a clean clear glass refrigerator dish with a fitted transparent lid visibly closed, empty refrigerator shelf, no plastic package, no other food, no utensils, no people, no text",
+      "seed": 202608212003,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "ACCEPTED_VISUAL_QA",
+      "regeneration": "second",
+      "published_file": "public/images/illustrations/cnd-vacuum-sealed-fish-thawing-safety-20260821-02.png",
+      "published_url": "/images/illustrations/cnd-vacuum-sealed-fish-thawing-safety-20260821-02.png"
+    },
+    {
+      "prompt_id": "11291d5a-1c53-4c9f-bf77-6ee2e52fa627",
+      "remote": {
+        "filename": "hermes_batch_a_20260821_regen_cooknestdaily_03_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1428542,
+      "seconds": 12,
+      "suffix": "03",
+      "filename": "cooknestdaily-20260821-03.png",
+      "prompt": "clean glass bowl of cold water containing a plain fish fillet inside a fully closed clear unprinted leakproof outer bag, still life only, no person, no hands, no faucet, no ice, no labels or text",
+      "seed": 202608211007,
+      "engine": "krea",
+      "model": "flux1-krea-dev_fp8_scaled.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "ACCEPTED_VISUAL_QA",
+      "regeneration": true,
+      "published_file": "public/images/illustrations/cnd-vacuum-sealed-fish-thawing-safety-20260821-03.png",
+      "published_url": "/images/illustrations/cnd-vacuum-sealed-fish-thawing-safety-20260821-03.png"
+    },
+    {
+      "prompt_id": "322ca497-c199-4b7f-8418-c995620185a6",
+      "remote": {
+        "filename": "hermes_batch_a_20260821_regen3_cooknestdaily_04_00001_.png",
+        "subfolder": "",
+        "type": "output"
+      },
+      "bytes": 1734107,
+      "seconds": 5,
+      "suffix": "04",
+      "filename": "cooknestdaily-20260821-04.png",
+      "prompt": "extreme close-up food photography of one fully cooked salmon fillet centered on a plain white ceramic plate, frame contains plate and fish only, empty neutral background, no table objects, no laptop, no paper, no utensils, no people, no text",
+      "seed": 202608213002,
+      "engine": "realvis",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "dimensions": [
+        1536,
+        864
+      ],
+      "status": "ACCEPTED_VISUAL_QA",
+      "regeneration": "third",
+      "published_file": "public/images/illustrations/cnd-vacuum-sealed-fish-thawing-safety-20260821-04.png",
+      "published_url": "/images/illustrations/cnd-vacuum-sealed-fish-thawing-safety-20260821-04.png"
+    }
+  ],
+  "rejected_assets_published": 0,
+  "final_contact_sheet": "/mnt/c/Users/k8plus/AppData/Local/hermes/tmp/batch-a-20260821-gti15/cooknestdaily/contact_sheet-final3.jpg"
+}
