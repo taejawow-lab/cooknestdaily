@@ -1,0 +1,196 @@
+{
+  "article_slug": "takeout-delivery-leftovers-food-safety-clock",
+  "generated_at": "2026-08-24T01:30:00+09:00",
+  "generator": "GTI15 ComfyUI MCP",
+  "accepted_count": 5,
+  "assets": [
+    {
+      "file": "/images/illustrations/cnd-takeout-delivery-leftovers-20260824-hero.png",
+      "role": "hero",
+      "information_job": "deep-to-shallow cooling comparison",
+      "source_filename": "ComfyUI_00134_.png",
+      "seed": 824103,
+      "prompt_id": "3ff2e3c0-53a5-435c-bc37-ffb613e17045",
+      "asset_id": "57ed3e3d-fe9c-4720-80dd-7a96e0c6e074",
+      "workflow_id": "generate_image",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "settings": {
+        "width": 1280,
+        "height": 768,
+        "steps": 28,
+        "cfg": 5.5,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1.0
+      },
+      "dimensions": [
+        1280,
+        768
+      ],
+      "bytes": 1524136,
+      "sha256": "68031cf7992486470348696d466abd95f39ac45399065b09eeb8eaf71efa29f0",
+      "accepted": true
+    },
+    {
+      "file": "/images/illustrations/cnd-takeout-delivery-leftovers-20260824-01.png",
+      "role": "handoff",
+      "information_job": "cooked takeout at handoff",
+      "source_filename": "ComfyUI_00136_.png",
+      "seed": 824104,
+      "prompt_id": "64ec42e3-1723-4919-8991-66c8854997a0",
+      "asset_id": "a21ceca3-ef4b-4287-9f3a-df93325d98f0",
+      "workflow_id": "generate_image",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "settings": {
+        "width": 1280,
+        "height": 768,
+        "steps": 28,
+        "cfg": 5.5,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1.0
+      },
+      "dimensions": [
+        1280,
+        768
+      ],
+      "bytes": 1211854,
+      "sha256": "066865409476d82d25368d31d2436b0555f01a210f238e17a5dafa5f8e1c4ea8",
+      "accepted": true
+    },
+    {
+      "file": "/images/illustrations/cnd-takeout-delivery-leftovers-20260824-02.png",
+      "role": "portioning",
+      "information_job": "hot-versus-cold handling decision",
+      "source_filename": "ComfyUI_00150_.png",
+      "seed": 824205,
+      "prompt_id": "0031bf51-8ac2-4b7b-aa1d-a3c1b60893a0",
+      "asset_id": "427f2bb4-3862-4cec-a0ab-bdd0545d8ce7",
+      "workflow_id": "generate_image",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "settings": {
+        "width": 1280,
+        "height": 768,
+        "steps": 28,
+        "cfg": 5.5,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1.0
+      },
+      "dimensions": [
+        1280,
+        768
+      ],
+      "bytes": 1167851,
+      "sha256": "ed5d3a18ecb89dd172dcd49c3e7cea926992c0dae0bcdd8ffa0c5c95514e804c",
+      "accepted": true
+    },
+    {
+      "file": "/images/illustrations/cnd-takeout-delivery-leftovers-20260824-03.png",
+      "role": "shallow-storage",
+      "information_job": "shallow cooked-food portions",
+      "source_filename": "ComfyUI_00153_.png",
+      "seed": 824301,
+      "prompt_id": "2fea49e3-5cb9-4271-a366-6fff89664c65",
+      "asset_id": "60e47c30-1e47-4a25-8e5b-6268b09807e4",
+      "workflow_id": "generate_image",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "settings": {
+        "width": 1280,
+        "height": 768,
+        "steps": 28,
+        "cfg": 5.5,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1.0
+      },
+      "dimensions": [
+        1280,
+        768
+      ],
+      "bytes": 1518459,
+      "sha256": "708d510adbf724cb96d84aedfe7444c520f577e72ecdc835b52ab0fcde85d215",
+      "accepted": true
+    },
+    {
+      "file": "/images/illustrations/cnd-takeout-delivery-leftovers-20260824-04.png",
+      "role": "refrigeration",
+      "information_job": "cold storage shelf",
+      "source_filename": "ComfyUI_00156_.png",
+      "seed": 824302,
+      "prompt_id": "9366ced1-6b2d-4976-a8ac-25db3e4c4c9c",
+      "asset_id": "b036b423-726c-4fd9-943b-06715f288b3d",
+      "workflow_id": "generate_image",
+      "model": "RealVisXL_V5.0_fp16.safetensors",
+      "settings": {
+        "width": 1280,
+        "height": 768,
+        "steps": 28,
+        "cfg": 5.5,
+        "sampler": "dpmpp_2m",
+        "scheduler": "karras",
+        "denoise": 1.0
+      },
+      "dimensions": [
+        1280,
+        768
+      ],
+      "bytes": 1233652,
+      "sha256": "6ccac1c41f593f4de73857bf0244ae9f02d0b54308faebcd6f11da2c0e65a79e",
+      "accepted": true
+    }
+  ],
+  "rejected_generations": [
+    {
+      "asset_id": "587c2176-15a9-4657-a53a-36b8038b8c67",
+      "source_filename": "ComfyUI_00130_.png",
+      "reason": "visible pseudo-labels"
+    },
+    {
+      "asset_id": "082973c9-304f-4c15-ad05-b3c0b8e7951a",
+      "source_filename": "ComfyUI_00132_.png",
+      "reason": "visible pseudo-labels"
+    },
+    {
+      "asset_id": "78b7c5fd-35fc-41ba-b981-eda555b5fe75",
+      "source_filename": "ComfyUI_00138_.png",
+      "reason": "off-topic utensil composition"
+    },
+    {
+      "asset_id": "567a121c-2503-4426-842a-bfba7b29c0aa",
+      "source_filename": "ComfyUI_00140_.png",
+      "reason": "fake jar label and raw-food clutter"
+    },
+    {
+      "asset_id": "4a4274a2-ed83-4661-853d-649058a0952d",
+      "source_filename": "ComfyUI_00143_.png",
+      "reason": "malformed empty refrigerator and weak relevance"
+    },
+    {
+      "asset_id": "c52e12b9-84cd-4313-abc8-9f10aa5d7d69",
+      "source_filename": "ComfyUI_00145_.png",
+      "reason": "pseudo-text on containers"
+    },
+    {
+      "asset_id": "c5fe7240-d6b7-444e-bf57-ed129dfd372f",
+      "source_filename": "ComfyUI_00147_.png",
+      "reason": "fake packaging labels"
+    },
+    {
+      "asset_id": "1998d1fc-d3ad-41b8-9427-3ef1ed890a70",
+      "source_filename": "ComfyUI_00149_.png",
+      "reason": "fake thermometer UI"
+    },
+    {
+      "asset_id": "5ce1ca93-04af-4bc4-8c5c-5d13a0ad51ab",
+      "source_filename": "ComfyUI_00159_.png",
+      "reason": "fake readable labels"
+    },
+    {
+      "asset_id": "d39e3a88-1971-486e-a58f-442c9656a9bc",
+      "source_filename": "ComfyUI_00162_.png",
+      "reason": "fake appliance UI and distracting raw produce"
+    }
+  ],
+  "visual_qa": "PASS: final contact sheet inspected; no people/hands/faces, raw meat, raw-cooked cross-contamination, fake readable labels/text/UI/logos, material distortion, or wrong-domain imagery in accepted assets."
+}

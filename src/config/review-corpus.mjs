@@ -25,7 +25,8 @@ export const REVIEW_POSTS = [
   "vacuum-sealing-vs-freezer",
   "raw-cookie-dough-flour-egg-food-safety-plan",
   "microwave-hot-spots-cold-centers-reheating-guide",
-  "vacuum-sealed-fish-thawing-safety"
+  "vacuum-sealed-fish-thawing-safety",
+  "takeout-delivery-leftovers-food-safety-clock"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;
