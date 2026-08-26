@@ -1,0 +1,57 @@
+{
+  "site": "cooknestdaily",
+  "slug": "homemade-garlic-in-oil-botulism-refrigeration-safety",
+  "date": "2026-08-27",
+  "backend": "GTI15 ComfyUI",
+  "workflow": "generate_image",
+  "visual_qa": "PASS",
+  "assets": [
+    {
+      "filename": "cnd-garlic-oil-20260827-1.png",
+      "source_filename": "ComfyUI_00229_.png",
+      "accepted": true,
+      "visual_qa": "PASS",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1427586
+    },
+    {
+      "filename": "cnd-garlic-oil-20260827-2.png",
+      "source_filename": "ComfyUI_00230_.png",
+      "accepted": true,
+      "visual_qa": "PASS",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1172914
+    },
+    {
+      "filename": "cnd-garlic-oil-20260827-3.png",
+      "source_filename": "ComfyUI_00231_.png",
+      "accepted": true,
+      "visual_qa": "PASS",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1314952
+    },
+    {
+      "filename": "cnd-garlic-oil-20260827-4.png",
+      "source_filename": "ComfyUI_00232_.png",
+      "accepted": true,
+      "visual_qa": "PASS",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1789063
+    },
+    {
+      "filename": "cnd-garlic-oil-20260827-5.png",
+      "source_filename": "ComfyUI_00233_.png",
+      "accepted": true,
+      "visual_qa": "PASS",
+      "width": 1536,
+      "height": 864,
+      "bytes": 1154056
+    }
+  ],
+  "rejected_sources": "not included in final manifest",
+  "contact_sheet": "cnd-garlic-oil-20260827-final-contact-sheet.jpg"
+}
