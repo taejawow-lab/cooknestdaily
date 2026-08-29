@@ -1,0 +1,60 @@
+{
+  "site": "cooknestdaily",
+  "date": "2026-08-30",
+  "backend": "GTI15 ComfyUI",
+  "model_priority": "FLUX.1 Krea dev",
+  "accepted": [
+    {
+      "file": "cnd-soup-cooling-20260830-1.png",
+      "engine": "krea",
+      "seed": 3008064690,
+      "prompt_id": "b95e8443-de1d-4fd2-b695-4e5a6be4134a",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260830\\cooknestdaily\\1-hero\\20260830_033629_krea_3008064690.png",
+      "width": 1536,
+      "height": 864,
+      "visual_qa": "PASS"
+    },
+    {
+      "file": "cnd-soup-cooling-20260830-2.png",
+      "engine": "krea",
+      "seed": 3766034686,
+      "prompt_id": "54fa4777-189a-49ae-a2ee-6804304f7797",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260830\\cooknestdaily\\2-shallow-pans\\20260830_033643_krea_3766034686.png",
+      "width": 1536,
+      "height": 864,
+      "visual_qa": "PASS"
+    },
+    {
+      "file": "cnd-soup-cooling-20260830-3.png",
+      "engine": "krea",
+      "seed": 1914950537,
+      "prompt_id": "41d95a27-e24e-4104-a2da-7b7ed48cca53",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260830\\cooknestdaily\\3-ice-bath\\20260830_033656_krea_1914950537.png",
+      "width": 1536,
+      "height": 864,
+      "visual_qa": "PASS"
+    },
+    {
+      "file": "cnd-soup-cooling-20260830-4.png",
+      "engine": "krea",
+      "seed": 1570895935,
+      "prompt_id": "7c84c760-bd61-481e-b62d-8861c598b21c",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260830\\cooknestdaily\\4-portioning\\20260830_033710_krea_1570895935.png",
+      "width": 1536,
+      "height": 864,
+      "visual_qa": "PASS"
+    },
+    {
+      "file": "cnd-soup-cooling-20260830-5.png",
+      "engine": "krea",
+      "seed": 4110348155,
+      "prompt_id": "2dd48bb8-f973-4b07-8228-2ed23e68250a",
+      "source": "C:\\Users\\k8plus\\AppData\\Local\\hermes\\tmp\\batch_a_20260830_regen\\cooknestdaily\\refrigerator\\20260830_034409_krea_4110348155.png",
+      "width": 1536,
+      "height": 864,
+      "visual_qa": "PASS"
+    }
+  ],
+  "rejected_candidates_excluded": true,
+  "final_visual_qa": "PASS"
+}

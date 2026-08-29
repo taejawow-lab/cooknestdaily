@@ -27,7 +27,8 @@ export const REVIEW_POSTS = [
   "microwave-hot-spots-cold-centers-reheating-guide",
   "vacuum-sealed-fish-thawing-safety",
   "takeout-delivery-leftovers-food-safety-clock",
-  "homemade-garlic-in-oil-botulism-refrigeration-safety"
+  "homemade-garlic-in-oil-botulism-refrigeration-safety",
+  "cooling-large-batches-soup-safely-shallow-pans-ice-baths"
 ];
 export const REVIEW_POST_SET = new Set(REVIEW_POSTS);
 export const REVIEW_MIN_EQUIVALENT_WORDS = 850;
